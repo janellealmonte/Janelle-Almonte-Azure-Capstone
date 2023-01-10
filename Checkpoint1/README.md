@@ -9,8 +9,8 @@
 ## Table of Contents
 1. [Microsoft Azure](#microsoft-azure)
 2. [Single Line Code Snippet](#single-line-code-snippet)
-3. [Multi Line Code Snippet](#multi-line-code-snippet)
-4. [Sample JSON Objects](#sample-json-objects)
+3. [Bash Script - Multi Line Code Snippet](#bash-script-multi-line-code-snippet)
+4. [JSON Objects](#json-objects)
 5. [Sample Table](#sample-table)
 6. [Sample Hyperlink](#sample-hyperlink)
 
@@ -19,3 +19,30 @@
 
 ### Single Line Code Snippet
 `print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")`
+
+### Bash Script
+```
+#!/bin/bash
+
+# This script demonstrates some basic bash commands
+
+# Print a message to the console
+echo "Starting script..."
+
+# Create a new directory
+mkdir new_directory
+
+# Move into the new directory
+cd new_directory
+
+# Create a new file
+touch new_file.txt
+
+# Print the contents of the current directory to the console
+ls
+
+# Print a message to the console
+echo "Script complete."
+```
+### JSON Objects
+
