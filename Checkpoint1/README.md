@@ -9,7 +9,7 @@
 ## Table of Contents
 1. [Microsoft Azure](#microsoft-azure)
 2. [Single Line Code Snippet](#single-line-code-snippet)
-3. [Bash Script - Multi Line Code Snippet](#bash-script-multi-line-code-snippet)
+3. [Bash Script](#bash-script)
 4. [JSON Objects](#json-objects)
 5. [Sample Table](#sample-table)
 6. [Sample Hyperlink](#sample-hyperlink)
@@ -20,7 +20,7 @@
 ### Single Line Code Snippet
 `print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")`
 
-### Bash Script - Multi Line Code Snippet
+### Bash Script
 ```
 #!/bin/bash
 
