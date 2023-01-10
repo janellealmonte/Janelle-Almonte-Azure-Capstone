@@ -49,11 +49,20 @@ echo "Script complete."
 ### JSON Objects
 ```
 {
-    "name": "my-vm",
-    "location": "East US",
-    "vmSize": "Standard_D2s_v3",
-    "OS": "Windows Server 2019",
-    "powerState": "Running"
+    "colors": [
+        {
+            "name": "red",
+            "hex": "#ff0000"
+        },
+        {
+            "name": "green",
+            "hex": "#00ff00"
+        },
+        {
+            "name": "blue",
+            "hex": "#0000ff"
+        }
+    ]
 }
 ```
 ### Azure Services
