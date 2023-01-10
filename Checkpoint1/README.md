@@ -7,3 +7,9 @@
 - **TEACHER’S NAME: ATOOSA NASIRI**
 
 ## Table of Contents
+- an image
+- single line code snippet
+- multi line code snippet (preferably bash script"
+- sample json objects
+- sample table
+- sample hyperlink
