@@ -19,3 +19,5 @@ git status
 git add
 git commit
 ```
+
+This is another way of embedding a single command like `git status` into your text
