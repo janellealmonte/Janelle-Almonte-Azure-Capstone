@@ -11,7 +11,7 @@
 2. [Single Line Code Snippet](#single-line-code-snippet)
 3. [Bash Script](#bash-script)
 4. [JSON Objects](#json-objects)
-5. [Sample Table](#sample-table)
+5. [Markdown Table](#markdown-table)
 6. [Sample Hyperlink](#sample-hyperlink)
 
 ### Microsoft Azure
@@ -56,3 +56,11 @@ echo "Script complete."
     "powerState": "Running"
 }
 ```
+### Markdown Table
+| Service Name         | Description                                                           |
+|----------------------|-----------------------------------------------------------------------|
+| Azure Virtual Machines | Create and manage virtual machines on Azure                           |
+| Azure Storage        | Scalable and secure cloud storage for files and data                   |
+| Azure SQL Database   | Managed relational database service for your applications              |
+| Azure Cognitive Services | Services for building AI-powered applications                        |
+| Azure App Service    | Platform for building and hosting web apps and RESTful APIs           |
