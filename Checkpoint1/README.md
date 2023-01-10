@@ -14,13 +14,13 @@
 5. [Azure Services](#azure-services)
 6. [Hyperlink](#hyperlink)
 
-### Microsoft Azure
+### 1. Microsoft Azure
 <img src="https://media.giphy.com/media/CyprIZWx32GbXcgbua/giphy.gif" alt="animation loop">
 
-### Single Line Code Snippet
+### 2. Single Line Code Snippet
 `print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")` 😊
 
-### Bash Script
+### 3. Bash Script
 
 ```
 #!/bin/bash
@@ -46,7 +46,7 @@ ls
 echo "Script complete."
 ```
 
-### JSON Objects
+### 4. JSON Objects
 ```
 {
     "name": "my-vm",
@@ -56,7 +56,7 @@ echo "Script complete."
     "powerState": "Running"
 }
 ```
-### Azure Services
+### 5. Azure Services
 | Service Name             | Description                                                           |
 |--------------------------|-----------------------------------------------------------------------|
 | Azure Virtual Machines   | Create and manage virtual machines on Azure                           |
@@ -65,6 +65,6 @@ echo "Script complete."
 | Azure Cognitive Services | Services for building AI-powered applications                         |
 | Azure App Service        | Platform for building and hosting web apps and RESTful APIs           |
 
-### Hyperlink
+### 6. Hyperlink
 [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
