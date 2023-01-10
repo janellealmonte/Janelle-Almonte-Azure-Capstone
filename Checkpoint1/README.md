@@ -21,6 +21,7 @@
 `print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")`
 
 ### Bash Script
+
 ```
 #!/bin/bash
 
@@ -44,5 +45,14 @@ ls
 # Print a message to the console
 echo "Script complete."
 ```
-### JSON Objects
 
+### JSON Objects
+```
+{
+    "name": "my-vm",
+    "location": "East US",
+    "vmSize": "Standard_D2s_v3",
+    "OS": "Windows Server 2019",
+    "powerState": "Running"
+}
+```
