@@ -48,22 +48,29 @@ echo "Script complete."
 
 ### JSON Objects
 ```
-{
-    "colors": [
-        {
-            "name": "red",
-            "hex": "#ff0000"
-        },
-        {
-            "name": "green",
-            "hex": "#00ff00"
-        },
-        {
-            "name": "blue",
-            "hex": "#0000ff"
-        }
-    ]
-}
+<table>
+  <tr>
+    <th>Color Name</th>
+    <th>HEX Value</th>
+    <th>Color Preview</th>
+  </tr>
+  <tr>
+    <td>Red</td>
+    <td>#ff0000</td>
+    <td><div style="width: 50px; height: 20px; background-color: #ff0000;"></div></td>
+  </tr>
+  <tr>
+    <td>Green</td>
+    <td>#00ff00</td>
+    <td><div style="width: 50px; height: 20px; background-color: #00ff00;"></div></td>
+  </tr>
+  <tr>
+    <td>Blue</td>
+    <td>#0000ff</td>
+    <td><div style="width: 50px; height: 20px; background-color: #0000ff;"></div></td>
+  </tr>
+</table>
+
 ```
 ### Azure Services
 | Service Name             | Description                                                           |
