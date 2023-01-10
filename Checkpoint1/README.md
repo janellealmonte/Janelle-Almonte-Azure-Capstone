@@ -6,8 +6,6 @@
 - **GITHUB USER_ID: 144525201-myseneca** 
 - **TEACHER’S NAME: Atoosa Nasiri**
 
-<img src="https://media.giphy.com/media/3ZBPLu6JlJvjaypfht/giphy.gif" alt="animation loop">
-
 ## Table of Contents
 1. [Microsoft Azure](#microsoft-azure)
 2. [Single Line Code Snippet](#single-line-code-snippet)
