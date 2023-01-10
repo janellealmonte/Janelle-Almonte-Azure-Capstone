@@ -20,7 +20,7 @@
 ### Single Line Code Snippet
 `print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")`
 
-### Bash Script
+### Bash Script - Multi Line Code Snippet
 ```
 #!/bin/bash
 
