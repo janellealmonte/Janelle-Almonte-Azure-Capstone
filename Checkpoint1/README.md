@@ -18,7 +18,7 @@
 <img src="https://cdn.dribbble.com/users/3847465/screenshots/10765125/media/e5f08353be5952c5bfd4a759903d5c5a.gif" alt="animation loop">
 
 ### Single Line Code Snippet
-`print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")`
+`print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")` 😊
 
 ### Bash Script
 
@@ -67,3 +67,4 @@ echo "Script complete."
 
 ### Hyperlink
 [Microsoft Azure](https://azure.microsoft.com/en-us/)
+
