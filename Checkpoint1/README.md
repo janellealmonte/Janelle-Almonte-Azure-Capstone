@@ -16,6 +16,7 @@
 
 ### 1. Microsoft Azure
 <img src="https://media.giphy.com/media/CyprIZWx32GbXcgbua/giphy.gif" alt="animation loop">
+*** gif source: https://dribbble.com/shots/10765125-Microsoft-Azure-Logo ***
 
 ### 2. Single Line Code Snippet
 `print("Join me as I code my way to success with my first project on GitHub, Welcome to Checkpoint1!")` 😊
