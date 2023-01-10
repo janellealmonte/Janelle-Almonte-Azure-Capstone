@@ -57,10 +57,10 @@ echo "Script complete."
 }
 ```
 ### Markdown Table
-| Service Name         | Description                                                           |
-|----------------------|-----------------------------------------------------------------------|
-| Azure Virtual Machines | Create and manage virtual machines on Azure                           |
-| Azure Storage        | Scalable and secure cloud storage for files and data                   |
-| Azure SQL Database   | Managed relational database service for your applications              |
-| Azure Cognitive Services | Services for building AI-powered applications                        |
-| Azure App Service    | Platform for building and hosting web apps and RESTful APIs           |
+| Service Name             | Description                                                           |
+|--------------------------|-----------------------------------------------------------------------|
+| Azure Virtual Machines   | Create and manage virtual machines on Azure                           |
+| Azure Storage            | Scalable and secure cloud storage for files and data                  |
+| Azure SQL Database       | Managed relational database service for your applications             |
+| Azure Cognitive Services | Services for building AI-powered applications                         |
+| Azure App Service        | Platform for building and hosting web apps and RESTful APIs           |
