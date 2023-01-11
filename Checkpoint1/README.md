@@ -1,4 +1,4 @@
-# Pre-Checkpoint1 Submission
+# Checkpoint1 Submission
 
 - **COURSE INFORMATION: CSN 400-Computer Systems Projects**
 - **STUDENT’S NAME: Janelle Marie Almonte**
