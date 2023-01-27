@@ -8,10 +8,12 @@
 ```
 
 ## Table of Contents
-1. [PART A - Adding Files - Local Repo Work Flow](#part-a---adding-files-local-repo-work-flow)
-2. [Part B - Inspecting Local Repo with git status and git log](#part-b---inspecting-local-repo-with-git-status-and-git-logpart-b)
+1. [PART A - Adding Files - Local Repo Work Flow](#header1)
+2. [Part B - Inspecting Local Repo with git status and git log](#header2)
+3. [Part C - Creating & Merging Branches](#header3)
+4. [Part D - Git Branching Strategy Review Questions](#header4)
 
-###  PART A - Adding Files - Local Repo Work Flow
+##  PART A - Adding Files - Local Repo Work Flow
 
 **Git Log**
 ```
@@ -46,15 +48,12 @@ Date:   Thu Jan 26 21:59:42 2023 -0500
     adds CP/README.md
 ```
 
-### Part B - Inspecting Local Repo with git status and git log
+## Part B - Inspecting Local Repo with git status and git log
+
+**You can use git status command to understand the status of the files in your 
+working directory, staging area and local repo. You can use git log command to get list of your commit history. How do these two commands differ?**
 
 ```
-You can use git status command to understand the status of the files in your 
-working directory, staging area and local repo. 
-You can use git log command to get list of your commit history. 
-
-How do these two commands differ?
-
 `git status` shows the status of the files in the working directory, the staging area, 
 and the local repository. It shows which files have been modified, which files have been 
 added to the staging area, and which files are in the local repository but have not been committed.
@@ -63,3 +62,8 @@ added to the staging area, and which files are in the local repository but have 
 chronological order, showing the commit hash, author, date, and commit message for each commit. 
 The git log command is used to view the commit history for a repository, whereas git status is used
 to view the current status of the files in the working directory, staging area, and local repository.
+```
+
+## Part C - Creating & Merging Branches
+
+## Part D - Git Branching Strategy Review Questions
