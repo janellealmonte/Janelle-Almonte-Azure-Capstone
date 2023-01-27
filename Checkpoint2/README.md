@@ -8,10 +8,10 @@
 ```
 
 ## Table of Contents
-1. [PART A - Adding Files - Local Repo Work Flow](#header1)
-2. [Part B - Inspecting Local Repo with git status and git log](#header2)
-3. [Part C - Creating & Merging Branches](#header3)
-4. [Part D - Git Branching Strategy Review Questions](#header4)
+1. [PART A - Adding Files - Local Repo Work Flow](#PART-A---Adding-Files---Local-Repo-Work-Flow)
+2. [Part B - Inspecting Local Repo with git status and git log](#Part-B---Inspecting-Local-Repo-with-git-status-and-git-log)
+3. [Part C - Creating & Merging Branches](#Part-C---Creating-&-Merging-Branches)
+4. [Part D - Git Branching Strategy Review Questions](#Part-D---Git-Branching-Strategy-Review-Questions)
 
 ##  PART A - Adding Files - Local Repo Work Flow
 
@@ -60,8 +60,9 @@ added to the staging area, and which files are in the local repository but have 
 ***see sample image below:***
 
 <div style="text-align:center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/4c7dbc3e0f0e70bad3d1b80f13d96c55e9839a77/Checkpoint2/screenshots/git%20status.PNG" alt="Git Status">
+  <img src="https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/4c7dbc3e0f0e70bad3d1b80f13d96c55e9839a77/Checkpoint2/screenshots/git%20status.PNG" alt="Git Status">
 </div>
+
 
 ***another example***
 ```
@@ -84,7 +85,7 @@ to view the current status of the files in the working directory, staging area, 
 
 ***see sample image below:***
 <div style="text-align:center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/2e09fd28ebfc6cd63a83a959e5ae35980914e8ad/Checkpoint2/screenshots/git%20log.PNG" alt="Git Log">
+  <img src="https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/2e09fd28ebfc6cd63a83a959e5ae35980914e8ad/Checkpoint2/screenshots/git%20log.PNG" alt="Git Log">
 </div>
 
 ***another example***
