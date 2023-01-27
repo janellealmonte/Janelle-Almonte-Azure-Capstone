@@ -8,8 +8,8 @@
 ```
 
 ## Table of Contents
-1. [PART A - Adding Files - Local Repo Work Flow](#part-a-adding-files-local-repo-work-flow)
-2. [Part B - Inspecting Local Repo with git status and git log](part-b-inspecting-local-repo-with-git-status-and-git-log)
+1. [PART A - Adding Files - Local Repo Work Flow](#part-a---adding-files-local-repo-work-flow)
+2. [Part B - Inspecting Local Repo with git status and git log](#part-b---inspecting-local-repo-with-git-status-and-git-logpart-b)
 
 ###  PART A - Adding Files - Local Repo Work Flow
 
@@ -49,7 +49,9 @@ Date:   Thu Jan 26 21:59:42 2023 -0500
 ### Part B - Inspecting Local Repo with git status and git log
 
 ```
-You can use git status command to understand the status of the files in your working directory, staging area and local repo. You can use git log command to get list of your commit history. 
+You can use git status command to understand the status of the files in your 
+working directory, staging area and local repo. 
+You can use git log command to get list of your commit history. 
 
 How do these two commands differ?
 
