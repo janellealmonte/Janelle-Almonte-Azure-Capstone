@@ -10,7 +10,7 @@
 ## Table of Contents
 1. [PART A - Adding Files - Local Repo Work Flow](#PART-A---Adding-Files---Local-Repo-Work-Flow)
 2. [Part B - Inspecting Local Repo with git status and git log](#Part-B---Inspecting-Local-Repo-with-git-status-and-git-log)
-3. [Part C - Creating & Merging Branches](#Part-C---Creating-&-Merging-Branches)
+3. [Part C - Creating and Merging Branches](#Part-C---Creating-and-Merging-Branches)
 4. [Part D - Git Branching Strategy Review Questions](#Part-D---Git-Branching-Strategy-Review-Questions)
 
 ###  PART A - Adding Files - Local Repo Work Flow
@@ -120,7 +120,7 @@ Adding a new feature
 
 In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository. They are both useful commands for understanding and managing the state of your Git repository, but serve different purposes.
 
-### Part C - Creating & Merging Branches
+### Part C - Creating and Merging Branches
 
 **BRANCHES**
 
