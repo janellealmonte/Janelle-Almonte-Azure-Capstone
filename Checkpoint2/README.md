@@ -62,6 +62,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 **GIT LOG**
 
+The output below is the result of the command `git log -n 5`, which shows the last 5 commits made in the repository. Each commit is identified by a unique hash value, such as "dc73511c4c5b60122825e1b6ab809a3f3d4df85c", and includes the author's name (jmalmonte) and email (jmalmonte@myseneca.ca), the date and time the commit was made, and a message describing the changes made in that commit.
+
+It is typical to use git log command to view the commit history of a project and to understand what changes were made, who made them, and when they were made. This can be useful for debugging, code review, and understanding the evolution of a codebase over time.
+
 ![git log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/first%20log.PNG)
 
 ### Part B - Inspecting Local Repo with git status and git log
@@ -77,6 +81,7 @@ added to the staging area, and which files are in the local repository but have 
 
 ![git status](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/git%20status.PNG)
 
+The git status command provides an overview of my current repository status. The image shows that I'm currently working on the "main" branch, and it is in sync with the remote branch "origin/main". The command also shows that I have added three new files, "git_status_committed.txt", "git_status_uncommitted.txt" and "git_status_untracked.txt" and are ready to be committed to the repository.
 
 ***another example***
 ```
@@ -92,6 +97,10 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
+In this particular output, it's shown that there is a file "README.md" that has been modified but not yet staged for commit, meaning that the changes made to this file have not been added to the next commit. The command also suggests the use of "git add <file>..." to update what will be committed and "git restore <file>..." to discard changes in working directory, which would allow you to stage the changes made to the README.md file and commit it or discard it.
+
+---
+
 `git log` shows the commit history for a repository. It lists the commits in reverse 
 chronological order, showing the commit hash, author, date, and commit message for each commit. 
 The git log command is used to view the commit history for a repository, whereas git status is used
@@ -100,6 +109,8 @@ to view the current status of the files in the working directory, staging area, 
 ***see sample image below:***
 
 ![git log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/git%20log.PNG)
+
+This command "git log" shows a log of all the previous commits made in the repository. In this particular output, it shows one commit with the unique identifier "b5203bf40589973806dacd0508eb95f202a162ce" that is currently the latest commit and is located at the "HEAD" of the "main" branch, as well as in "origin/main" and "origin/HEAD" branches. This commit was made by me, jmalmonte@myseneca.ca, on Thursday, January 26th, 2023 at 23:03:47 (UTC-5). The commit message states that I have updated the "README.md" file.
 
 ***another example***
 ```
@@ -116,7 +127,11 @@ Date:   Mon Jan 27 18:10:57 2020 +0800
 
 Adding a new feature
 ```
+In this example, the command "git log" shows a log of previous commits made to the repository. In this example, it shows two commits. The first commit, labeled "commit 4c7dbc3e0f0e70bad3d1b80f13d96c55e9839a77", is the most recent commit and is currently at the head of the "master" branch and the "origin/master" branch. This commit was made by me, Janelle Almonte, and the email address used is jmalmonte@myseneca.ca. The commit message reads "Fixing the bug in the function".
 
+The second commit, labeled "commit 2e09fd28ebfc6cd63a83a959e5ae35980914e8ad", was also made by me, Janelle Almonte, and the email address used is janelle-marie.almonte@senecacollege.ca. The commit message reads "Adding a new feature". This commit is made earlier than the first commit.
+
+---
 
 In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository. They are both useful commands for understanding and managing the state of your Git repository, but serve different purposes.
 
