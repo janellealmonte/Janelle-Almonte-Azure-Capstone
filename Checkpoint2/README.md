@@ -62,37 +62,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 **GIT LOG**
 
-```
-commit dc73511c4c5b60122825e1b6ab809a3f3d4df85c (HEAD -> main, origin/main, origin/HEAD)
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:39:55 2023 -0500
-
-    adds text files for CP2 submission
-
-commit 8e557ecc6429da3b504341a007465c67bbbc4cca
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:36:40 2023 -0500
-
-    adds Checkpoint2/README.md
-
-commit 45d5c5a457f712490f70ccf6653f5df913a67780
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:21:57 2023 -0500
-
-    adds CP2/README.md
-
-commit e6155c9eb7be353ed0fb1ce859d418c2ec0b3d81
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:04:14 2023 -0500
-
-    delete wrong CP2
-
-commit 1ec84a00658f5b24167b1fad38d64a4c2b73d76f
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 21:59:42 2023 -0500
-
-    adds CP/README.md
-```
+![git log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/first%20log.PNG)
 
 ## Part B - Inspecting Local Repo with git status and git log
 
@@ -105,9 +75,8 @@ added to the staging area, and which files are in the local repository but have 
 
 ***see sample image below:***
 
-<div style="text-align:center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/4c7dbc3e0f0e70bad3d1b80f13d96c55e9839a77/Checkpoint2/screenshots/git%20status.PNG" alt="Git Status">
-</div>
+![git status](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/git%20status.PNG)
+
 
 ***another example***
 ```
@@ -130,10 +99,7 @@ to view the current status of the files in the working directory, staging area, 
 
 ***see sample image below:***
 
-<div style="text-align:center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/2e09fd28ebfc6cd63a83a959e5ae35980914e8ad/Checkpoint2/screenshots/git%20log.PNG" alt="Git Log">
-</div>
-
+![git log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/git%20log.PNG)
 
 ***another example***
 ```
