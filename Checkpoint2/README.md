@@ -149,6 +149,8 @@ This code uses the ` ```bash ` syntax to indicate that the text that follows sho
 Please note that the output is an example, it may not match the specific output on my repo.
 
 ## Part D - Git Branching Strategy Review Questions
+![Branching Conventions](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8bf86a736d6b00f8d603a6b3fbecc45b9fd6e72d/Checkpoint2/screenshots/branching-conventions.png)
+
 **What are the differences between develop branch and main branch?**
 
 GitHub is like a vast digital library where developers can store, manage, and collaborate on their projects. It's built on top of Git, which acts like a librarian, keeping track of all the changes made to the code.
