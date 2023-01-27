@@ -8,11 +8,12 @@
 ```
 
 ## Table of Contents
-1. [Git Log](#git-log)
+1. [Part A](#part-a-adding-files-local-repo-work-flow)
 
-###  Git Log
+###  PART A - Adding Files - Local Repo Work Flow
+
+**Git Log**
 ```
-**$ git log -n 5**
 commit dc73511c4c5b60122825e1b6ab809a3f3d4df85c (HEAD -> main, origin/main, origin/HEAD)
 Author: jmalmonte <jmalmonte@myseneca.ca>
 Date:   Thu Jan 26 22:39:55 2023 -0500
@@ -43,3 +44,14 @@ Date:   Thu Jan 26 21:59:42 2023 -0500
 
     adds CP/README.md
 ```
+
+### Part B - Inspecting Local Repo with git status and git log
+
+```
+You can use git status command to understand the status of the files in your working directory, staging area and local repo. You can use git log command to get list of your commit history. 
+
+How do these two commands differ?
+
+git status shows the status of the files in the working directory, the staging area, and the local repository. It shows which files have been modified, which files have been added to the staging area, and which files are in the local repository but have not been committed.
+
+<b>git log</b> shows the commit history for a repository. It lists the commits in reverse chronological order, showing the commit hash, author, date, and commit message for each commit. The git log command is used to view the commit history for a repository, whereas git status is used to view the current status of the files in the working directory, staging area, and local repository.
