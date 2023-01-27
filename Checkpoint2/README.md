@@ -210,11 +210,11 @@ A clear and consistent branching strategy is vital to understand where different
 
 GitHub uses three supporting branches (feature, release, and hotfix) to help keep code organized and easy to understand. By separating the development process into different branches, it allows for efficient and streamlined workflow.
 
-Feature branches are like a separate project within a company. Imagine you're working on a new product, you don't want to mix it with the current projects, right? That's the same idea with feature branches. It's a place where new features are developed and tested, away from the main codebase. This way, you can try out new things and make sure they fit before adding them to the final product.
+`Feature branches` are like a separate project within a company. Imagine you're working on a new product, you don't want to mix it with the current projects, right? That's the same idea with feature branches. It's a place where new features are developed and tested, away from the main codebase. This way, you can try out new things and make sure they fit before adding them to the final product.
 
-Release branches are like the final presentation in a company. Once the product has been developed and tested, they need to be presented to the public. That's where release branches come in. It's where we take the code that's been tested and approved on feature branches, and make sure it's ready to be shipped out to the public. We'll do final testing, check for any last-minute bugs, and make sure everything is polished and presentable.
+`Release branches` are like the final presentation in a company. Once the product has been developed and tested, they need to be presented to the public. That's where release branches come in. It's where we take the code that's been tested and approved on feature branches, and make sure it's ready to be shipped out to the public. We'll do final testing, check for any last-minute bugs, and make sure everything is polished and presentable.
 
-Hotfix branches are like the emergency section in a company. Sometimes, you might need to make a quick fix before the next release, maybe a bug in the code or a problem with the design. That's where hotfix branches come in. These branches are used to quickly fix critical issues that need to be addressed before the next release. This way, we can make sure we're always putting our best foot forward.
+`Hotfix branches` are like the emergency section in a company. Sometimes, you might need to make a quick fix before the next release, maybe a bug in the code or a problem with the design. That's where hotfix branches come in. These branches are used to quickly fix critical issues that need to be addressed before the next release. This way, we can make sure we're always putting our best foot forward.
 
 All of these branches work together to help us keep our code organized and easy to understand, making the development process run smoothly and efficiently.
 
