@@ -62,6 +62,8 @@ chronological order, showing the commit hash, author, date, and commit message f
 The git log command is used to view the commit history for a repository, whereas git status is used
 to view the current status of the files in the working directory, staging area, and local repository.
 
+In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository.
+
 ## Part C - Creating & Merging Branches
 
 ## Part D - Git Branching Strategy Review Questions
