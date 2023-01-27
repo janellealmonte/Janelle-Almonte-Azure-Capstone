@@ -15,7 +15,7 @@
 
 ##  PART A - Adding Files - Local Repo Work Flow
 
-**Git Log**
+**GIT LOG**
 ```
 commit dc73511c4c5b60122825e1b6ab809a3f3d4df85c (HEAD -> main, origin/main, origin/HEAD)
 Author: jmalmonte <jmalmonte@myseneca.ca>
@@ -46,6 +46,51 @@ Author: jmalmonte <jmalmonte@myseneca.ca>
 Date:   Thu Jan 26 21:59:42 2023 -0500
 
     adds CP/README.md
+```
+***FILES ADDED LOCALLY***
+```
+--UNTRACKED--
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_untracked.txt
+
+```
+```
+--UNCOMMITED--
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_uncommitted.txt
+	git_status_untracked.txt
+```
+```
+--COMMITTED--
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_committed.txt
+	git_status_uncommitted.txt
+	git_status_untracked.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ## Part B - Inspecting Local Repo with git status and git log
