@@ -1,11 +1,11 @@
 # Checkpoint2 Submission
-```
+
 - **COURSE INFORMATION: CSN 400-Computer Systems Projects**
 - **STUDENT’S NAME: Janelle Marie Almonte**
 - **STUDENT'S NUMBER: 144525201**
 - **GITHUB USER ID: 144525201-myseneca**
 - **TEACHER’S NAME: Atoosa Nasiri**
-```
+
 
 ## Table of Contents
 1. [PART A - Adding Files - Local Repo Work Flow](#PART-A---Adding-Files---Local-Repo-Work-Flow)
@@ -13,7 +13,7 @@
 3. [Part C - Creating & Merging Branches](#Part-C---Creating-&-Merging-Branches)
 4. [Part D - Git Branching Strategy Review Questions](#Part-D---Git-Branching-Strategy-Review-Questions)
 
-##  PART A - Adding Files - Local Repo Work Flow
+###  PART A - Adding Files - Local Repo Work Flow
 
 **FILES ADDED LOCALLY**
 ```
@@ -64,7 +64,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ![git log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/first%20log.PNG)
 
-## Part B - Inspecting Local Repo with git status and git log
+### Part B - Inspecting Local Repo with git status and git log
 
 **You can use git status command to understand the status of the files in your 
 working directory, staging area and local repo. You can use git log command to get list of your commit history. How do these two commands differ?**
@@ -120,7 +120,7 @@ Adding a new feature
 
 In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository. They are both useful commands for understanding and managing the state of your Git repository, but serve different purposes.
 
-## Part C - Creating & Merging Branches
+### Part C - Creating & Merging Branches
 
 **BRANCHES**
 
@@ -178,7 +178,7 @@ This code uses the ` ```bash ` syntax to indicate that the text that follows sho
 
 Please note that the output is an example, it may not match the specific output on my repo.
 
-## Part D - Git Branching Strategy Review Questions
+### Part D - Git Branching Strategy Review Questions
 ![Branching Conventions](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8bf86a736d6b00f8d603a6b3fbecc45b9fd6e72d/Checkpoint2/screenshots/branching-conventions.png)
 
 **What are the differences between develop branch and main branch?**
