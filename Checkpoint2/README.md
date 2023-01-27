@@ -57,13 +57,23 @@ working directory, staging area and local repo. You can use git log command to g
 and the local repository. It shows which files have been modified, which files have been 
 added to the staging area, and which files are in the local repository but have not been committed.
 
+***see sample image below:***
+
+<div style="text-align:center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/4c7dbc3e0f0e70bad3d1b80f13d96c55e9839a77/Checkpoint2/screenshots/git%20status.PNG" alt="Git Status">
+</div>
+
 
 `git log` shows the commit history for a repository. It lists the commits in reverse 
 chronological order, showing the commit hash, author, date, and commit message for each commit. 
 The git log command is used to view the commit history for a repository, whereas git status is used
 to view the current status of the files in the working directory, staging area, and local repository.
 
-<img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/2e09fd28ebfc6cd63a83a959e5ae35980914e8ad/Checkpoint2/screenshots/git%20log.PNG">
+***see sample image below:***
+<div style="text-align:center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/2e09fd28ebfc6cd63a83a959e5ae35980914e8ad/Checkpoint2/screenshots/git%20log.PNG" alt="Git Log">
+</div>
+
 
 In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository.
 
