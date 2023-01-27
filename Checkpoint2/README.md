@@ -15,41 +15,6 @@
 
 ##  PART A - Adding Files - Local Repo Work Flow
 
-**GIT LOG**
-
-![First Log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/first%20log.PNG)
-
-```
-commit dc73511c4c5b60122825e1b6ab809a3f3d4df85c (HEAD -> main, origin/main, origin/HEAD)
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:39:55 2023 -0500
-
-    adds text files for CP2 submission
-
-commit 8e557ecc6429da3b504341a007465c67bbbc4cca
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:36:40 2023 -0500
-
-    adds Checkpoint2/README.md
-
-commit 45d5c5a457f712490f70ccf6653f5df913a67780
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:21:57 2023 -0500
-
-    adds CP2/README.md
-
-commit e6155c9eb7be353ed0fb1ce859d418c2ec0b3d81
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 22:04:14 2023 -0500
-
-    delete wrong CP2
-
-commit 1ec84a00658f5b24167b1fad38d64a4c2b73d76f
-Author: jmalmonte <jmalmonte@myseneca.ca>
-Date:   Thu Jan 26 21:59:42 2023 -0500
-
-    adds CP/README.md
-```
 **FILES ADDED LOCALLY**
 ```
 --UNTRACKED--
@@ -94,6 +59,39 @@ Untracked files:
 	git_status_untracked.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
+```
+**GIT LOG**
+
+```
+commit dc73511c4c5b60122825e1b6ab809a3f3d4df85c (HEAD -> main, origin/main, origin/HEAD)
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 22:39:55 2023 -0500
+
+    adds text files for CP2 submission
+
+commit 8e557ecc6429da3b504341a007465c67bbbc4cca
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 22:36:40 2023 -0500
+
+    adds Checkpoint2/README.md
+
+commit 45d5c5a457f712490f70ccf6653f5df913a67780
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 22:21:57 2023 -0500
+
+    adds CP2/README.md
+
+commit e6155c9eb7be353ed0fb1ce859d418c2ec0b3d81
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 22:04:14 2023 -0500
+
+    delete wrong CP2
+
+commit 1ec84a00658f5b24167b1fad38d64a4c2b73d76f
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 21:59:42 2023 -0500
+
+    adds CP/README.md
 ```
 
 ## Part B - Inspecting Local Repo with git status and git log
@@ -160,7 +158,8 @@ In summary, `git status` shows the current state of the repository, while `git l
 
 **BRANCHES**
 
-![Branches_CSN400-Capstone_Checkpoint2](https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/Branches_CSN400-Capstone_Checkpoint2.PNG)
+![Branches](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/Branches_CSN400-Capstone_Checkpoint2.PNG)
+
 
 **MAIN BRANCH**
 
