@@ -53,7 +53,6 @@ Date:   Thu Jan 26 21:59:42 2023 -0500
 **You can use git status command to understand the status of the files in your 
 working directory, staging area and local repo. You can use git log command to get list of your commit history. How do these two commands differ?**
 
-```
 `git status` shows the status of the files in the working directory, the staging area, 
 and the local repository. It shows which files have been modified, which files have been 
 added to the staging area, and which files are in the local repository but have not been committed.
@@ -62,7 +61,6 @@ added to the staging area, and which files are in the local repository but have 
 chronological order, showing the commit hash, author, date, and commit message for each commit. 
 The git log command is used to view the commit history for a repository, whereas git status is used
 to view the current status of the files in the working directory, staging area, and local repository.
-```
 
 ## Part C - Creating & Merging Branches
 
