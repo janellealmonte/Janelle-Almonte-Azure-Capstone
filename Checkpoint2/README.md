@@ -59,9 +59,7 @@ added to the staging area, and which files are in the local repository but have 
 
 ***see sample image below:***
 
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/4c7dbc3e0f0e70bad3d1b80f13d96c55e9839a77/Checkpoint2/screenshots/git%20status.PNG" alt="Git Status">
-</div>
+https://github.com/144525201-myseneca/CSN400-Capstone/blob/main/Checkpoint2/screenshots/git%20status.PNG
 
 
 ***another example***
@@ -84,9 +82,9 @@ The git log command is used to view the commit history for a repository, whereas
 to view the current status of the files in the working directory, staging area, and local repository.
 
 ***see sample image below:***
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/2e09fd28ebfc6cd63a83a959e5ae35980914e8ad/Checkpoint2/screenshots/git%20log.PNG" alt="Git Log">
-</div>
+
+https://github.com/144525201-myseneca/CSN400-Capstone/blob/main/Checkpoint2/screenshots/git%20log.PNG
+
 
 ***another example***
 ```
