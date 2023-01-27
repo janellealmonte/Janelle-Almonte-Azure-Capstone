@@ -149,5 +149,46 @@ This code uses the ` ```bash ` syntax to indicate that the text that follows sho
 Please note that the output is an example, it may not match the specific output on my repo.
 
 ## Part D - Git Branching Strategy Review Questions
+**What are the differences between develop branch and main branch?**
+```
+GitHub is like a vast digital library where developers can store, manage, and collaborate on their projects. It's built on top of Git, which acts like a librarian, keeping track of all the changes made to the code.
 
+When working as a team, understanding the naming conventions and branching strategy can make a significant impact on the project's efficiency. It's like keeping a closet organized; if everything is labeled and in its proper place, it's much easier to find what you need and ensure it reaches the right destination.
 
+In Git, we have the develop and main branches. The main branch is like the final destination, it's where all the polished code goes before it gets released to the public. Meanwhile, the develop branch acts like a testing ground, where new features are experimented with and evaluated before they make their way to the main branch.
+
+A clear and consistent branching strategy is vital to understand where different features and fixes are in the development process, and it also aids in preventing confusion and merge conflicts.
+```
+**What are the three supporting branches? Briefly describe the function of each of these supporting branches.**
+```
+GitHub uses three supporting branches (feature, release, and hotfix) to help keep code organized and easy to understand. By separating the development process into different branches, it allows for efficient and streamlined workflow.
+
+Feature branches are like a separate project within a company. Imagine you're working on a new product, you don't want to mix it with the current projects, right? That's the same idea with feature branches. It's a place where new features are developed and tested, away from the main codebase. This way, you can try out new things and make sure they fit before adding them to the final product.
+
+Release branches are like the final presentation in a company. Once the product has been developed and tested, they need to be presented to the public. That's where release branches come in. It's where we take the code that's been tested and approved on feature branches, and make sure it's ready to be shipped out to the public. We'll do final testing, check for any last-minute bugs, and make sure everything is polished and presentable.
+
+Hotfix branches are like the emergency section in a company. Sometimes, you might need to make a quick fix before the next release, maybe a bug in the code or a problem with the design. That's where hotfix branches come in. These branches are used to quickly fix critical issues that need to be addressed before the next release. This way, we can make sure we're always putting our best foot forward.
+
+All of these branches work together to help us keep our code organized and easy to understand, making the development process run smoothly and efficiently.
+```
+**What are the best practices in working with release branches?**
+```
+When working with release branches, it's essential to establish a streamlined process to ensure a smooth and successful release. Here are some best practices to keep in mind:
+
+   - Create a new release branch: Before beginning a new release, create a new branch off of the development branch. This ensures that the release branch is up-to-date with the latest code, features, and changes.
+
+   - Maintain organization: Utilize a consistent naming convention for release branches, such as "release/x.x.x" where x.x.x represents the version number. This allows for easy identification and tracking of releases.
+
+   - Quality assurance: Conduct thorough code reviews and testing before merging code into the release branch. This guarantees that the code is of the highest quality and free of bugs before release.
+
+   - Test thoroughly: Perform comprehensive testing, including functional, performance, and regression testing, before releasing.
+
+   - Communicate effectively: Maintain open communication with team members regarding the progress of the release. This ensures that everyone is informed and on the same page.
+
+   - Tag the release: Once the release is ready, create a tag with the version number. This allows for easy reference and tracking of the release in the future.
+
+   - Close the loop: Once the release is complete and tested, merge the release branch back to the main branch. This ensures that the main branch always contains the latest, stable version of the code.
+
+By following these best practices, you can streamline the release process, maintain high-quality code, and keep your team informed and organized. With a solid plan in place, releasing can be a breeze.
+
+```
