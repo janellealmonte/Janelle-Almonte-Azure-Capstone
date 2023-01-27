@@ -16,6 +16,9 @@
 ##  PART A - Adding Files - Local Repo Work Flow
 
 **GIT LOG**
+
+![First Log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/first%20log.PNG)
+
 ```
 commit dc73511c4c5b60122825e1b6ab809a3f3d4df85c (HEAD -> main, origin/main, origin/HEAD)
 Author: jmalmonte <jmalmonte@myseneca.ca>
@@ -154,6 +157,21 @@ Adding a new feature
 In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository. They are both useful commands for understanding and managing the state of your Git repository, but serve different purposes.
 
 ## Part C - Creating & Merging Branches
+
+**BRANCHES**
+
+![Branches_CSN400-Capstone_Checkpoint2](https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/Branches_CSN400-Capstone_Checkpoint2.PNG)
+
+**MAIN BRANCH**
+
+![Main_CSN400-Capstone_Checkpoint2](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/Main_CSN400-Capstone_Checkpoint2.PNG)
+
+
+**FEAT-EMOJIS BRANCH**
+
+![feat-emojis_CSN400-Capstone_Checkpoint2](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d8ffc0417e72ebe9d9c93c1d096901be630e8ed5/Checkpoint2/screenshots/feat-emojis_CSN400-Capstone_Checkpoint2.PNG)
+
+
 
 **Log Output - Merge**
 
