@@ -108,7 +108,46 @@ In summary, `git status` shows the current state of the repository, while `git l
 
 ## Part C - Creating & Merging Branches
 
+**Log Output - Merge**
+
+```bash
+$ git log -n 5
+commit 9d082298fcc7af089527273beafd8ad27bd53146 (HEAD -> main, origin/main, origin/feat-emojis, origin/HEAD, feat-emojis)
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Fri Jan 27 00:10:41 2023 -0500
+
+    adds emojis to feat-emojis branch
+
+commit 6772c166dda376eddcb7cea58295cb08f2f11e9b
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Fri Jan 27 00:00:02 2023 -0500
+
+    adds footnotes folder
+
+commit 62fcdec8b4a474ea07b9ac91b5900ab6a7008e11
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 23:47:17 2023 -0500
+
+    adds details on README.md
+
+commit 34d74d6b1966e24121799ce621e8133c814dc09e
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 23:43:31 2023 -0500
+
+    adds details on README.md
+
+commit fb38fe35791e5459b4fd8768cd4c734829f2c1ea
+Author: jmalmonte <jmalmonte@myseneca.ca>
+Date:   Thu Jan 26 23:41:21 2023 -0500
+
+    adds details on README.md
+
+```
+
+This code uses the ` ```bash ` syntax to indicate that the text that follows should be displayed in a monospace font and interpreted as a bash script. The `git log -n 5` command will display the last 5 commits in the repository.
+
+Please note that the output is an example, it may not match the specific output on my repo.
+
 ## Part D - Git Branching Strategy Review Questions
 
 
-[def]: CSN400-Capstone/Checkpoint2/screenshots/git-status.PNG
