@@ -8,12 +8,12 @@
 
 
 ## Table of Contents 📚
-1. [PART A - Adding Files - Local Repo Work Flow](#PART-A---Adding-Files---Local-Repo-Work-Flow)
-2. [Part B - Inspecting Local Repo with git status and git log](#Part-B---Inspecting-Local-Repo-with-git-status-and-git-log)
-3. [Part C - Creating and Merging Branches](#Part-C---Creating-and-Merging-Branches)
-4. [Part D - Git Branching Strategy Review Questions](#Part-D---Git-Branching-Strategy-Review-Questions)
+1. [PART A - Adding Files - Local Repo Work Flow 📂](#PART-A---Adding-Files---Local-Repo-Work-Flow-📂)
+2. [Part B - Inspecting Local Repo with git status and git log 🔍](#Part-B---Inspecting-Local-Repo-with-git-status-and-git-log-🔍)
+3. [Part C - Creating and Merging Branches 🏗️](#Part-C---Creating-and-Merging-Branches-🏗️)
+4. [Part D - Git Branching Strategy Review Questions 👩‍💻](#Part-D---Git-Branching-Strategy-Review-Questions-👩‍💻)
 
-###  PART A - Adding Files - Local Repo Work Flow 
+###  PART A - Adding Files - Local Repo Work Flow 📂
 
 **FILES ADDED LOCALLY** 
 ```
@@ -68,7 +68,7 @@ It is typical to use git log command to view the commit history of a project and
 
 ![git log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d947f46316f4e800a178def4209758baf5e8e56b/Checkpoint2/screenshots/first%20log.PNG)
 
-### Part B - Inspecting Local Repo with git status and git log 
+### Part B - Inspecting Local Repo with git status and git log 🔍
 
 **You can use git status command to understand the status of the files in your 
 working directory, staging area and local repo. You can use git log command to get list of your commit history. How do these two commands differ?**
@@ -135,7 +135,7 @@ The second commit, labeled "commit 2e09fd28ebfc6cd63a83a959e5ae35980914e8ad", wa
 
 In summary, `git status` shows the current state of the repository, while `git log` shows the history of commits made to the repository. They are both useful commands for understanding and managing the state of your Git repository, but serve different purposes.
 
-### Part C - Creating and Merging Branches 
+### Part C - Creating and Merging Branches 🏗️
 
 **BRANCHES** 
 
@@ -192,7 +192,7 @@ This code uses the ` ```bash ` syntax to indicate that the text that follows sho
 
 Please note that the output is an example, it may not match the specific output on my repo.
 
-### Part D - Git Branching Strategy Review Questions 
+ ### Part D - Git Branching Strategy Review Questions 👩‍💻
 ![Branching Conventions](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8bf86a736d6b00f8d603a6b3fbecc45b9fd6e72d/Checkpoint2/screenshots/branching-conventions.png)
 
 **What are the differences between develop branch and main branch?**
