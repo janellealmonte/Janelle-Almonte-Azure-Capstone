@@ -4,7 +4,7 @@
 - **STUDENT’S NAME: Janelle Marie Almonte**
 - **STUDENT'S NUMBER: 144525201**
 - **GITHUB USER ID: 144525201-myseneca**
-- **TEACHER’S NAME: Atoosa Nasiri
+- **TEACHER’S NAME: Atoosa Nasiri**
 
 ## Table of Contents 📚
 1. [Part A - Creating Your Unique Network Topology](#part-a---creating-your-unique-network-topology)
