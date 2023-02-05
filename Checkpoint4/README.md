@@ -20,4 +20,4 @@ The Student VNET includes a single Windows Client, the Router VNET is equipped w
 
 ### PART B - Creating Resources in Azure Portal
 
-### PART C - Working in Azure CLI Bash
+### PART C - Working in Azure CLI in Bash
