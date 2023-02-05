@@ -26,8 +26,8 @@ Diagram created via [Draw.io](https://www.draw.io)
 ### VNET Router-110
 
 ```bash
-# Remember to replace ‘110’ with your Unique ID
-Vnet Name:  Router-110
+#Details:
+VNET Name:  Router-110
 IPv4 Address Space:  192.168.110.0/24
 Subnets:  Create 4
 SN1:  192.168.110.32/27
@@ -39,8 +39,8 @@ SN4:  192.168.110.128/27
 ### VNET Server-110
 
 ```bash
-# Remember to replace ‘110’ with your Unique ID
-VNETt Name:  Server-110
+#Details:
+VNET Name:  Server-110
 IPv4 Address Space:  172.17.110.0/24
 Subnets:  Create 4
 SN1:  172.17..110.32/27
@@ -70,6 +70,7 @@ Route Table Name:  RT-110
 
 ### Route Associations
 ```
+-
 SN1
 172.17.110.32/27
 Server-110
