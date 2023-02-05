@@ -23,6 +23,63 @@ Diagram created via [Draw.io](https://www.draw.io)
 
 ### PART B - Creating Resources in Azure Portal
 
+### VNET Router-110
+
+```bash
+# Remember to replace ‘110’ with your Unique ID
+Vnet Name:  Router-110
+IPv4 Address Space:  192.168.110.0/24
+Subnets:  Create 4
+SN1:  192.168.110.32/27
+SN2:  192.168.110.64/27
+SN3:  192.168.110.96/27
+SN4:  192.168.110.128/27
+```
+
+### VNET Server-110
+
+```bash
+# Remember to replace ‘110’ with your Unique ID
+VNETt Name:  Server-110
+IPv4 Address Space:  172.17.110.0/24
+Subnets:  Create 4
+SN1:  172.17..110.32/27
+SN2:  172.17.110.64/27
+SN3:  172.17.110.96/27
+SN4:  172.17.110.128/27
+```
+
+### VNET Peerings
+
+```bash
+# Peer the Router Network to the Server Network
+Peering Name:  Router110-Server110
+Remote Peering Name:  Server110-Router110
+
+# Peer the Router Network to the Student Network
+Peering Name:  Router110-Student846404
+Remote Peering Name:  Student846404-Router110
+```
+
+### Route Table
+
+```bash
+Route Table Name:  RT-110
+
+```
+
+### Route Associations
+```
+SN1
+172.17.110.32/27
+Server-110
+-
+Virtual-Desktop-Client
+10.66.53.0/24
+Student-846404-vnet
+-
+```
+
 ### PART C - Working in Azure CLI in Bash
 **1. List all VNETs using az network vnet list command and send the output in json format to vnet_list.jsonfile**
 
