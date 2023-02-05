@@ -121,4 +121,13 @@ az network vnet show -n Router-110 -g Student-RG-846404 --query "{subnets: subne
 
 **7. (Optional) What CLI command will show you which subnet is associated to which route in toute table? (Hint: maybe start with 'az network vnet subnet show`)**
 
+***command used:***
 
+az network route-table show --name RT-110 --resource-group Student-RG-846404 --query "subnets[].id"
+
+```json
+[
+  "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/virtualNetworks/Server-110/subnets/SN1",
+  "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/virtualNetworks/Student-846404-vnet/subnets/Virtual-Desktop-Client"
+]
+```
