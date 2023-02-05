@@ -19,7 +19,7 @@ The above diagram describes the network topology, displaying the relationships b
 
 The Student VNET includes a single Windows Client, the Router VNET is equipped with a Linux Router, and the Server VNET encompasses both a Windows Server and a Linux Server. The diagram also presents a table that showcases the routing information, including the Route Name, Destination, Next Hop Type, and Next Hop IP.
 
-[Diagram created via Draw.io](https://www.draw.io)
+Diagram created via [Draw.io](https://www.draw.io)
 
 ### PART B - Creating Resources in Azure Portal
 
