@@ -25,9 +25,9 @@ Diagram created via [Draw.io](https://www.draw.io)
 
 ### PART C - Working in Azure CLI in Bash
 1. List all VNETs using az network vnet list command and send the output in json format to vnet_list.jsonfile
-```
+
 https://github.com/144525201-myseneca/CSN400-Capstone/blob/eeb15e71ec04aa70f701c486b220563c150ad5db/Checkpoint4/Part_C/vnet_list.json
-```
+
 2. Get the details of your default student VNET using az show command and send the output in json format to student_vnet.json file
 3. List all peerings using az peering peering list command and send the output in table format to peerings.tblfile
 4. Get the details of your Router-XX subnet SN1 using az show command in json format and query it for details of subnet and rout associations. Only submit the specific property you are asked for. You will need to embed this in your README.md as per instructions This one is not easy ☀️
