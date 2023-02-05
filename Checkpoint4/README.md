@@ -77,19 +77,11 @@ Diagram created via [Draw.io](https://www.draw.io)
 
 4. What is the difference between Network Security Group (NSG) and Route-Tables?
 
-**Think of it this way, imagine you're the security guard in charge of a building. A Network Security Group (NSG) is like the security checkpoint at the entrance of the building, where you check and control who enters and leaves. You can allow or deny access to specific individuals or groups based on certain rules and protocols. On the other hand, a Route Table is like the building's map or blueprint. It specifies the direction and path of how traffic flows within the building. You can use Route Tables to control the flow of traffic between different subnets and even to different buildings.
-
-So in a nutshell, an NSG controls access to the resources in your network, while a Route Table controls the flow of traffic within the network.**
+**Think of it this way, imagine you're the security guard in charge of a building. A Network Security Group (NSG) is like the security checkpoint at the entrance of the building, where you check and control who enters and leaves. You can allow or deny access to specific individuals or groups based on certain rules and protocols. On the other hand, a Route Table is like the building's map or blueprint. It specifies the direction and path of how traffic flows within the building. You can use Route Tables to control the flow of traffic between different subnets and even to different buildings. So in a nutshell, an NSG controls access to the resources in your network, while a Route Table controls the flow of traffic within the network.**
 
 5. What is the difference between NSG and Firewalls?
 
-**NSGs and firewalls are both security features that are used to protect your network and its resources, but they work in slightly different ways.
-
-Think of NSGs as traffic cop for your network. NSGs allow you to control inbound and outbound network traffic to your virtual network and its resources based on a set of predefined rules. You can set these rules to only allow specific types of traffic to reach your virtual network, such as HTTP traffic from a specific IP address.
-
-Firewalls, on the other hand, are a more comprehensive network security solution that often come with more advanced features such as application-level traffic inspection, intrusion detection and prevention, and even URL filtering. A firewall acts as a barrier to protect your network from malicious traffic and unauthorized access.
-
-So while NSGs are great for controlling the flow of network traffic, firewalls offer a more complete and robust security solution for your network. In general, you would use NSGs in combination with firewalls to provide a multi-layered approach to network security.**
+**NSGs and firewalls are both security features that are used to protect your network and its resources, but they work in slightly different ways. Think of NSGs as traffic cop for your network. NSGs allow you to control inbound and outbound network traffic to your virtual network and its resources based on a set of predefined rules. You can set these rules to only allow specific types of traffic to reach your virtual network, such as HTTP traffic from a specific IP address. Firewalls, on the other hand, are a more comprehensive network security solution that often come with more advanced features such as application-level traffic inspection, intrusion detection and prevention, and even URL filtering. A firewall acts as a barrier to protect your network from malicious traffic and unauthorized access. So while NSGs are great for controlling the flow of network traffic, firewalls offer a more complete and robust security solution for your network. In general, you would use NSGs in combination with firewalls to provide a multi-layered approach to network security.**
 
 6. What is a hob-and-spoc network topology and how be deployed in Azure Cloud?
 
@@ -101,12 +93,12 @@ So while NSGs are great for controlling the flow of network traffic, firewalls o
 
 8. When do you need to configure and use Virtual Network Gateways?
 
-**Virtual Network Gateways are used in Microsoft Azure to securely connect Virtual Networks (VNets) to other networks, such as on-premises networks or other VNets.
+**Virtual Network Gateways are used in Microsoft Azure to securely connect Virtual Networks (VNets) to other networks, such as on-premises networks or other VNets.**
 
-You need to configure and use a Virtual Network Gateway when you want to:
+**You need to configure and use a Virtual Network Gateway when you want to:**
 
-Connect a VNet to an on-premises network over an IPsec/IKE VPN tunnel.
-Connect multiple VNets to each other using VNet-to-VNet connections.
-Connect VNets to Microsoft ExpressRoute circuits for a high-bandwidth, low-latency connection.
+- Connect a VNet to an on-premises network over an IPsec/IKE VPN tunnel.
+- Connect multiple VNets to each other using VNet-to-VNet connections.
+- Connect VNets to Microsoft ExpressRoute circuits for a high-bandwidth, low-latency connection.
 
-In general, a Virtual Network Gateway is necessary when you want to establish a secure and stable connection between Azure VNets and other networks for communication and data exchange purposes.**
+**In general, a Virtual Network Gateway is necessary when you want to establish a secure and stable connection between Azure VNets and other networks for communication and data exchange purposes.**
