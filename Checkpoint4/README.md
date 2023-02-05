@@ -96,6 +96,26 @@ Student-846404-vnet
 
 **4. Get the details of your Router-XX subnet SN1 using az show command in json format and query it for details of subnet and rout associations. Only submit the specific property you are asked for. You will need to embed this in your README.md as per instructions This one is not easy ☀️**
 
+***command used:***
+`az network route-table show -n RT-110 -g Student-RG-846404 --query "{subnetId: subnets[].id, nextHopType: routes[].nextHopType, destinationIpAddress: routes[].nextHopIpAddress}" --out json`
+
+```json
+{
+  "destinationIpAddress": [
+    "192.168.110.36",
+    "192.168.110.36"
+  ],
+  "nextHopType": [
+    "VirtualAppliance",
+    "VirtualAppliance"
+  ],
+  "subnetId": [
+    "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/virtualNetworks/Server-110/subnets/SN1",
+    "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/virtualNetworks/Student-846404-vnet/subnets/Virtual-Desktop-Client"
+  ]
+}
+```
+
 **5. List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tbl file**
 
 - [route_list.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3464322daca2dd876b6dc0d12d0f05aaf76d11d7/Checkpoint4/Part_C/route_list.tbl)
