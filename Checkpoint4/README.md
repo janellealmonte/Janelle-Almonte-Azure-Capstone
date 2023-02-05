@@ -52,9 +52,11 @@ Diagram created via [Draw.io](https://www.draw.io)
 ### Part D - Network Review Questions
 
 1. What is Azure Virtual Network (VNET)? Elaborate in your own words, you may use diagrams if drawn by yourself.
+
 **Azure Virtual Network (VNET) is like a virtualized version of a traditional network that allows you to securely connect and manage resources in the cloud. It's a way to virtually isolate and network your Azure resources so that they can communicate with each other securely, just like your on-premises resources. Think of it like creating your own little neighborhood in the cloud where your resources can live, work and play together. You can customize and configure your virtual network to suit your needs and ensure that your resources are isolated from the public internet and other tenants. With VNET, you can establish a secure connection between your on-premises network and the Azure cloud, enabling you to use the cloud as an extension of your own network.**
 
 2. In the context of Hybrid Cloud architecture. How on-prem computers can access resources inside Azure virtual network?
+
 **By connecting your on-premises network to a cross-premises Azure virtual network, you're essentially extending your network into the cloud. This allows you to include subnets and virtual machines hosted within Azure infrastructure services as part of your network. This connection creates a direct pathway for your on-premises computers to access the virtual machines in Azure, and for those virtual machines to access your on-premises resources. Think of it as a bridge that connects your in-house network with your virtual network in the cloud, enabling seamless communication and collaboration between the two.**
 
 3. What are the most important benefits of Azure Virtual Networks? Elaborate in your own words. Do not copy/paste from Azure Documentation. Itemized list of just benefit without proper elaboration will not receive any marks
