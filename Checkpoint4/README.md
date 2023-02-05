@@ -109,7 +109,8 @@ az network vnet show -n Router-110 -g Student-RG-846404 --query "{subnets: subne
       "subnetName": "SN1"
     }
   ]
-}```
+}
+```
 
 **5. List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tbl file**
 
