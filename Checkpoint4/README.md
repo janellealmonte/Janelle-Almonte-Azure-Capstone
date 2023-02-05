@@ -98,7 +98,7 @@ Student-846404-vnet
 
 ***command used:***
 
-`az network route-table show -n RT-110 -g Student-RG-846404 --query "{subnetId: subnets[].id, nextHopType: routes[].nextHopType, destinationIpAddress: routes[].nextHopIpAddress}" --out json`
+az network route-table show -n RT-110 -g Student-RG-846404 --query "{subnetId: subnets[].id, nextHopType: routes[].nextHopType, destinationIpAddress: routes[].nextHopIpAddress}" --out json
 
 ```json
 {
