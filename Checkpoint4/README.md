@@ -97,6 +97,7 @@ Student-846404-vnet
 **4. Get the details of your Router-XX subnet SN1 using az show command in json format and query it for details of subnet and rout associations. Only submit the specific property you are asked for. You will need to embed this in your README.md as per instructions This one is not easy ☀️**
 
 ***command used:***
+
 `az network route-table show -n RT-110 -g Student-RG-846404 --query "{subnetId: subnets[].id, nextHopType: routes[].nextHopType, destinationIpAddress: routes[].nextHopIpAddress}" --out json`
 
 ```json
