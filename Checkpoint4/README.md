@@ -58,7 +58,8 @@ Diagram created via [Draw.io](https://www.draw.io)
 **By connecting your on-premises network to a cross-premises Azure virtual network, you're essentially extending your network into the cloud. This allows you to include subnets and virtual machines hosted within Azure infrastructure services as part of your network. This connection creates a direct pathway for your on-premises computers to access the virtual machines in Azure, and for those virtual machines to access your on-premises resources. Think of it as a bridge that connects your in-house network with your virtual network in the cloud, enabling seamless communication and collaboration between the two.**
 
 3. What are the most important benefits of Azure Virtual Networks? Elaborate in your own words. Do not copy/paste from Azure Documentation. Itemized list of just benefit without proper elaboration will not receive any marks
-**Azure Virtual Networks offer a range of benefits for organizations looking to move their infrastructure to the cloud. Some of the most important benefits include:
+
+**Azure Virtual Networks offer a range of benefits for organizations looking to move their infrastructure to the cloud. Some of the most important benefits include:**
 
 - Network security: Azure Virtual Networks provide a secure environment for your cloud resources, using firewall rules and network security groups to control inbound and outbound traffic.
 
@@ -68,20 +69,20 @@ Diagram created via [Draw.io](https://www.draw.io)
 
 - Scalability: Azure Virtual Networks can be scaled up or down as needed, giving you the flexibility to adjust your network to meet the changing needs of your organization.
 
--Hybrid connectivity: Azure Virtual Networks allow you to connect to on-premises resources, giving you the ability to extend your network to the cloud and provide a seamless experience for your end-users.
+- Hybrid connectivity: Azure Virtual Networks allow you to connect to on-premises resources, giving you the ability to extend your network to the cloud and provide a seamless experience for your end-users.
 
 - Cost savings: By using Azure Virtual Networks, you can reduce costs associated with network infrastructure, as you only pay for what you use and can take advantage of Azure's cost-effective pricing model.
 
-In summary, Azure Virtual Networks provide organizations with a highly secure and flexible network infrastructure, giving them the control they need to manage their cloud resources and connect to on-premises resources as needed.**
+**In summary, Azure Virtual Networks provide organizations with a highly secure and flexible network infrastructure, giving them the control they need to manage their cloud resources and connect to on-premises resources as needed.**
 
 4. What is the difference between Network Security Group (NSG) and Route-Tables?
-**Think of it this way, imagine you're the security guard in charge of a building. A Network Security Group (NSG) is like the security checkpoint at the entrance of the building, where you check and control who enters and leaves. You can allow or deny access to specific individuals or groups based on certain rules and protocols.
 
-On the other hand, a Route Table is like the building's map or blueprint. It specifies the direction and path of how traffic flows within the building. You can use Route Tables to control the flow of traffic between different subnets and even to different buildings.
+**Think of it this way, imagine you're the security guard in charge of a building. A Network Security Group (NSG) is like the security checkpoint at the entrance of the building, where you check and control who enters and leaves. You can allow or deny access to specific individuals or groups based on certain rules and protocols. On the other hand, a Route Table is like the building's map or blueprint. It specifies the direction and path of how traffic flows within the building. You can use Route Tables to control the flow of traffic between different subnets and even to different buildings.
 
 So in a nutshell, an NSG controls access to the resources in your network, while a Route Table controls the flow of traffic within the network.**
 
 5. What is the difference between NSG and Firewalls?
+
 **NSGs and firewalls are both security features that are used to protect your network and its resources, but they work in slightly different ways.
 
 Think of NSGs as traffic cop for your network. NSGs allow you to control inbound and outbound network traffic to your virtual network and its resources based on a set of predefined rules. You can set these rules to only allow specific types of traffic to reach your virtual network, such as HTTP traffic from a specific IP address.
@@ -91,11 +92,15 @@ Firewalls, on the other hand, are a more comprehensive network security solution
 So while NSGs are great for controlling the flow of network traffic, firewalls offer a more complete and robust security solution for your network. In general, you would use NSGs in combination with firewalls to provide a multi-layered approach to network security.**
 
 6. What is a hob-and-spoc network topology and how be deployed in Azure Cloud?
+
 **A hub-and-spoke network topology in Azure Cloud refers to a design pattern where multiple virtual networks (spokes) are connected to a central virtual network (hub). This design allows for better network segmentation and security, as well as easier communication between the spoke virtual networks and the shared resources in the hub virtual network. To deploy a hub-and-spoke network topology in Azure, you would first create a hub virtual network and configure it with the shared resources and services that the spoke virtual networks will need access to. Then, you would create the spoke virtual networks and connect each one to the hub virtual network using a virtual network peering connection. By using a hub-and-spoke design, you can effectively manage and secure your network resources while still allowing for efficient communication between the different parts of your network.**
 
 7. In working with Azure VNETs, do you need to define gateways for Azure to route traffic between subnets?
+
 **Yes, when working with Azure virtual networks (VNETs), you usually need to define gateways in order for Azure to route traffic between subnets. This is because subnets within a VNET are isolated from each other by default, and a gateway allows communication between the subnets and between the VNET and other networks.**
+
 8. When do you need to configure and use Virtual Network Gateways?
+
 **Virtual Network Gateways are used in Microsoft Azure to securely connect Virtual Networks (VNets) to other networks, such as on-premises networks or other VNets.
 
 You need to configure and use a Virtual Network Gateway when you want to:
