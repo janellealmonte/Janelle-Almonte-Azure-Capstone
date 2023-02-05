@@ -29,10 +29,24 @@ Diagram created via [Draw.io](https://www.draw.io)
 - [vnet_list.jsonfile](https://github.com/144525201-myseneca/CSN400-Capstone/blob/eeb15e71ec04aa70f701c486b220563c150ad5db/Checkpoint4/Part_C/vnet_list.json)
 
 2. Get the details of your default student VNET using az show command and send the output in json format to student_vnet.json file
-3. List all peerings using az peering peering list command and send the output in table format to peerings.tblfile
+
+- [student_vnet.json](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3464322daca2dd876b6dc0d12d0f05aaf76d11d7/Checkpoint4/Part_C/student_vnet.json)
+
+3. List all peerings using az peering peering list command and send the output in table format to peerings.tbl file
+
+- [peerings.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3464322daca2dd876b6dc0d12d0f05aaf76d11d7/Checkpoint4/Part_C/peerings.tbl)
+
 4. Get the details of your Router-XX subnet SN1 using az show command in json format and query it for details of subnet and rout associations. Only submit the specific property you are asked for. You will need to embed this in your README.md as per instructions This one is not easy ☀️
-5. List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tblfile
+
+
+5. List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tbl file
+
+- [route_list.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3464322daca2dd876b6dc0d12d0f05aaf76d11d7/Checkpoint4/Part_C/route_list.tbl)
+
 6. Get the details of route between your Router-xx SN1 and Server-xx SN using az network route-table route show and send the output in json format to route_details.json
+
+- [route_details.json](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3464322daca2dd876b6dc0d12d0f05aaf76d11d7/Checkpoint4/Part_C/route_details.json)
+
 7. (Optional) What CLI command will show you which subnet is associated to which route in toute table? (Hint: maybe start with 'az network vnet subnet show`)
 
 ### Part D - Network Review Questions
