@@ -97,18 +97,16 @@ Student-846404-vnet
 
 ***command used:***
 
-az network vnet show -n Router-110 -g Student-RG-846404 --query "{subnets: subnets[?name == 'SN1'].{subnetName: name, subnetId: id, addressPrefix: addressPrefix}}" --out json
+az network vnet subnet show --name SN1 --resource-group Student-RG-846404 --vnet-name Router-110 --query "[{Subnet:name, subNetId:addressPrefix, Route:id}]" --output json
 
 ```json
-{
-  "subnets": [
-    {
-      "addressPrefix": "192.168.110.32/27",
-      "subnetId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/virtualNetworks/Router-110/subnets/SN1",
-      "subnetName": "SN1"
-    }
-  ]
-}
+[
+  {
+    "Route": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/virtualNetworks/Router-110/subnets/SN1",
+    "Subnet": "SN1",
+    "subNetId": "192.168.110.32/27"
+  }
+]
 ```
 
 **5. List all routes in RT-xx using az network route-table route list command and send the output in table format to route_list.tbl file**
