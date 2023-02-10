@@ -39,7 +39,7 @@
 
 ![VM Per Lab](https://github.com/144525201-myseneca/CSN400-Capstone/blob/b316011b5ee597471711720d13b47b853ca1c7f3/Checkpoint5/cp5-ss/devtestlab_VMperlab.png)
 
-**WC-110*
+**WC-110**
 
 ![WC-110](https://github.com/144525201-myseneca/CSN400-Capstone/blob/b316011b5ee597471711720d13b47b853ca1c7f3/Checkpoint5/cp5-ss/WC-110.png)
 
@@ -49,7 +49,7 @@
 
 **WS-110**
 
-![WS-110](https://github.com/144525201-myseneca/CSN400-Capstone/blob/b316011b5ee597471711720d13b47b853ca1c7f3/Checkpoint5/cp5-ss/WS-110.png
+![WS-110](https://github.com/144525201-myseneca/CSN400-Capstone/blob/b316011b5ee597471711720d13b47b853ca1c7f3/Checkpoint5/cp5-ss/WS-110.png)
 
 **LS-110**
 
