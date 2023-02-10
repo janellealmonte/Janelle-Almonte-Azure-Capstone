@@ -1,0 +1,47 @@
+{
+  "announcement": {
+    "enabled": "Disabled",
+    "expirationDate": null,
+    "expired": false,
+    "markdown": "",
+    "provisioningState": null,
+    "title": "",
+    "uniqueIdentifier": null
+  },
+  "artifactsStorageAccount": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.storage/storageaccounts/acsn4001104805",
+  "createdDate": "2023-02-10T03:17:34.874694+00:00",
+  "defaultPremiumStorageAccount": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.storage/storageaccounts/acsn4001104805",
+  "defaultStorageAccount": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.storage/storageaccounts/acsn4001104805",
+  "environmentPermission": "Reader",
+  "extendedProperties": {
+    "RdpConnectionType": "7"
+  },
+  "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110",
+  "labStorageType": "Premium",
+  "loadBalancerId": null,
+  "location": "canadacentral",
+  "mandatoryArtifactsResourceIdsLinux": [],
+  "mandatoryArtifactsResourceIdsWindows": [],
+  "name": "CSN400-110",
+  "networkSecurityGroupId": null,
+  "premiumDataDiskStorageAccount": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.storage/storageaccounts/acsn4001104805",
+  "premiumDataDisks": "Disabled",
+  "provisioningState": "Succeeded",
+  "publicIpId": null,
+  "resourceGroup": "student-rg-846404",
+  "support": {
+    "enabled": "Disabled",
+    "markdown": ""
+  },
+  "tags": {
+    "DeploymentId": "846404",
+    "LaunchId": "28962",
+    "LaunchType": "ON_DEMAND_LAB",
+    "TemplateId": "4678",
+    "TenantId": "353"
+  },
+  "type": "Microsoft.DevTestLab/labs",
+  "uniqueIdentifier": "ca3cc8e6-f065-4cd2-a03e-4ef8770bfd1b",
+  "vaultName": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.keyvault/vaults/csn4001107190",
+  "vmCreationResourceGroup": null
+}
