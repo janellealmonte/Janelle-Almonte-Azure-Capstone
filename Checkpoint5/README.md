@@ -57,6 +57,14 @@
 
 ### Part B - Working with `az lab` CLI command
 
+- [devtest_lab.json](https://github.com/144525201-myseneca/CSN400-Capstone/blob/52e875800c35db113b851255f18d1bd952c915e8/Checkpoint5/Part_B/devtest_lab.json)
+
+- [custom_images.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/52e875800c35db113b851255f18d1bd952c915e8/Checkpoint5/Part_B/custom_images.tbl)
+
+- [lab_vnets.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/52e875800c35db113b851255f18d1bd952c915e8/Checkpoint5/Part_B/lab_vnets.tbl)
+
+- [lab_vm.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/52e875800c35db113b851255f18d1bd952c915e8/Checkpoint5/Part_B/lab_vnets.tbl)
+
 ### Part C - Creating VMs using Azure Resource Manager (ARM) & Custom Images
 
 ### Part D - Azure Cost Analysis Charts
