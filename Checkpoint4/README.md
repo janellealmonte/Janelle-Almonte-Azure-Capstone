@@ -12,7 +12,7 @@
 3. [Part C - Working in Azure CLI in Bash](#part-c---working-in-azure-cli-in-bash)
 
 ### Part A - Creating Your Unique Network Topology
-![network topology diagram](https://github.com/144525201-myseneca/CSN400-Capstone/blob/0b3866dac93454f06ae62ceec7f0a791695be13a/Checkpoint4/images/networkdiagramcp4.png)
+![network diagram](https://github.com/144525201-myseneca/CSN400-Capstone/blob/4cb40c47c08f6b3afc7e970c8d9859b544b2c246/Checkpoint4/images/networkdiagramcp4.drawio.png)
 
 The above diagram describes the network topology, displaying the relationships between the Student VNET, Router VNET, and Server VNET. These virtual networks are interconnected through VNET peering, resulting in a seamless flow of communication between them.
 
