@@ -72,5 +72,9 @@
 
 ### Part C - Creating VMs using Azure Resource Manager (ARM) & Custom Images
 
+**Custom Images Created**
+
+![Custom Images](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8cf30d84913424687dd9e69ebabe6be5ba9e8955/Checkpoint5/cp5-ss/Custom_Images.png)
+
 ### Part D - Azure Cost Analysis Charts
 
