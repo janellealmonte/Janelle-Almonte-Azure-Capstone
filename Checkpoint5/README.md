@@ -1,4 +1,3 @@
-??? from here until ???END lines may have been inserted/deleted
 # Checkpoint5 Submission ✔️
 
 - **COURSE INFORMATION: CSN 400-Computer Systems Projects**
