@@ -65,6 +65,12 @@
 
 - [lab_vm.tbl](https://github.com/144525201-myseneca/CSN400-Capstone/blob/52e875800c35db113b851255f18d1bd952c915e8/Checkpoint5/Part_B/lab_vnets.tbl)
 
+```json
+{
+"name": "CSN400-xx"
+}
+```
+
 ### Part C - Creating VMs using Azure Resource Manager (ARM) & Custom Images
 
 ### Part D - Azure Cost Analysis Charts
