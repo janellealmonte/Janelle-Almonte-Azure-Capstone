@@ -66,7 +66,7 @@
 
 ```json
 {
-"name": "CSN400-xx"
+"name": "CSN400-110"
 }
 ```
 
