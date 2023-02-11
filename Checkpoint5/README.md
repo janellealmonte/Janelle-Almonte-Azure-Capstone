@@ -189,3 +189,24 @@
 
 ### Part D - Azure Cost Analysis Charts
 
+1. Column (Stacked) - DailyCosts - Last 7 Days - Resource - Daily
+
+![Chart1](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart1.PNG)
+
+2. Column (Stacked) - DailyCosts - Last 7 Days - Service - Daily
+
+![Chart2](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart2.PNG)
+
+3. Area	AccumulatedCosts - Last 7 Days - Resource - Accumulated
+
+![Chart3](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart3.PNG)
+
+4. Pie Chart - Service Name
+
+![Chart4](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart4.PNG)
+
+5.
+![Chart5](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart5.PNG)
+
+6.
+![Chart6](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart6.PNG)
