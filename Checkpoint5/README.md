@@ -76,5 +76,116 @@
 
 ![Custom Images](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8cf30d84913424687dd9e69ebabe6be5ba9e8955/Checkpoint5/cp5-ss/Custom_Images.png)
 
+**Custom Images - .json**
+
+```json
+[
+  {
+    "author": "odl_user_846404@seneca-csn400ndd.cloudlabs.ai",
+    "creationDate": "2023-02-10T05:18:55.495996+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Tasks Completed\nNo connection, no setup",
+    "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/customimages/ws-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/ws-img-v01",
+    "name": "WS-img-v01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846404",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "cbe3cb1b-3c39-4c51-8946-d859983465d5",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": null,
+      "sourceVmId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/virtualmachines/ws-110",
+      "windowsOsInfo": {
+        "windowsOsState": "NonSysprepped"
+      }
+    }
+  },
+  {
+    "author": "odl_user_846404@seneca-csn400ndd.cloudlabs.ai",
+    "creationDate": "2023-02-10T05:20:19.590494+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Tasks Completed:\nNo configuration",
+    "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/customimages/ls-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/ls-img-v01",
+    "name": "LS-img-V01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846404",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "d7e596b4-bf93-4c01-b84b-4497ccaa9eab",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": {
+        "linuxOsState": "NonDeprovisioned"
+      },
+      "sourceVmId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/virtualmachines/ls-110",
+      "windowsOsInfo": null
+    }
+  },
+  {
+    "author": "odl_user_846404@seneca-csn400ndd.cloudlabs.ai",
+    "creationDate": "2023-02-10T05:21:03.791154+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Task Completed:\nadded linuxkey and tested, working!",
+    "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/customimages/lr-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/lr-img-v01",
+    "name": "LR-img-V01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846404",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "7fc5a00d-993f-4d2b-a26c-acc8a22054c7",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": {
+        "linuxOsState": "NonDeprovisioned"
+      },
+      "sourceVmId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/virtualmachines/lr-110",
+      "windowsOsInfo": null
+    }
+  },
+  {
+    "author": "odl_user_846404@seneca-csn400ndd.cloudlabs.ai",
+    "creationDate": "2023-02-10T05:21:48.157315+00:00",
+    "customImagePlan": null,
+    "dataDiskStorageInfo": null,
+    "description": "Tasks Completed:\nAdded linuxkey, changed extension, tested",
+    "id": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/customimages/wc-img-v01",
+    "isPlanAuthorized": null,
+    "location": null,
+    "managedImageId": null,
+    "managedSnapshotId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/wc-img-v01",
+    "name": "WC-img-V01",
+    "provisioningState": "Succeeded",
+    "resourceGroup": "student-rg-846404",
+    "tags": null,
+    "type": "Microsoft.DevTestLab/labs/customImages",
+    "uniqueIdentifier": "4385643d-d44c-410e-90bf-daa5edac9d1e",
+    "vhd": null,
+    "vm": {
+      "linuxOsInfo": null,
+      "sourceVmId": "/subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.devtestlab/labs/csn400-110/virtualmachines/wc-110",
+      "windowsOsInfo": {
+        "windowsOsState": "NonSysprepped"
+      }
+    }
+  }
+]
+```
+
 ### Part D - Azure Cost Analysis Charts
 
