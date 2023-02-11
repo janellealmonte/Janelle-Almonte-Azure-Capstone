@@ -74,7 +74,7 @@
 
 **Custom Images Created**
 
-![Custom Images](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8cf30d84913424687dd9e69ebabe6be5ba9e8955/Checkpoint5/cp5-ss/Custom_Images.png)
+![Custom Images](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7d62111ecd69292bf681fc53b879096bbb05c1b6/Checkpoint5/cp5-ss/Custom_Images.png)
 
 **Custom Images - .json**
 
