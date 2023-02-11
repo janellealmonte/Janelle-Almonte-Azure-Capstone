@@ -6,7 +6,7 @@
 - **GITHUB USER ID: 144525201-myseneca**
 - **TEACHER’S NAME: Atoosa Nasiri**
 
-## Table of Contents
+## Table of Contents 📚
 1. [Part A - Creating Resources in Azure Portal](#part-a---creating-resources-in-azure-portal)
 2. [Part B - Working with `az lab` CLI command](#part-b---working-with-az-lab-cli-command)
 3. [Part C - Creating VMs using Azure Resource Manager (ARM) & Custom Images](#part-c---creating-vms-using-azure-resource-manager-arm--custom-images)
