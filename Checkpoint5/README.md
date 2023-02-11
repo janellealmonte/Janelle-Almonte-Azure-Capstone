@@ -205,8 +205,10 @@
 
 ![Chart4](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart4.PNG)
 
-5.
+5. Pie Chart - Service Family
+
 ![Chart5](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart5.PNG)
 
-6.
+6. Pie Chart - Product
+
 ![Chart6](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart6.PNG)
