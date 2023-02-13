@@ -204,12 +204,30 @@
 
 4. Pie Chart - Service Name
 
-![Chart4](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart4.PNG)
+***last month***
+
+![Chart4_LastMonth](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart4_lastmonth.png)
+
+***last 30 days***
+
+![Chart4_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart4_last30days.png)
 
 5. Pie Chart - Service Family
 
-![Chart5](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart5.PNG)
+***last month***
+
+![Chart5_LastMonth](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart5_lastmonth.png)
+
+***last 30 days***
+
+![Chart5_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart5_last30days.png)
 
 6. Pie Chart - Product
 
-![Chart6](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart6.PNG)
+***last month***
+
+![Chart6_LastMonth](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart5_lastmonth.png)
+
+***last 30 days***
+
+![Chart6_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart6_last30days.png)
