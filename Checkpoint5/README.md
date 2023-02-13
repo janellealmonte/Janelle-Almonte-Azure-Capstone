@@ -207,7 +207,7 @@ The filter is similar to the previous filter in that it provides information abo
 
 ![Chart3](https://github.com/144525201-myseneca/CSN400-Capstone/blob/308c79fffbac3b3964b12f0cb058b7416a44840f/Checkpoint5/cp5-ss/Chart3.PNG)
 
-This filter is shows an area chart that displays the total cost of my virtual machines over the last 7 days. The chart is designed to give a clear picture of the overall trend of your virtual machine costs over time. By looking at this chart, I can see how much each virtual machine is costing me on a daily basis, and how those costs have accumulated over the last 7 days. This information can help me make informed decisions aboutm my virtual machine usage and spending, by showing where I can potentially make adjustments to save money. In short, the filter "Area AccumulatedCosts - Last 7 Days - Resource - Accumulated" provides you with a clear and convenient way to monitor the accumulated cost of your virtual machines in Azure, over the last 7 day
+This filter shows an area chart that displays the total cost of my virtual machines over the last 7 days. The chart is designed to give a clear picture of the overall trend of your virtual machine costs over time. By looking at this chart, I can see how much each virtual machine is costing me on a daily basis, and how those costs have accumulated over the last 7 days. This information can help me make informed decisions about my virtual machine usage and spending, by showing where I can potentially make adjustments to save money. In short, the filter "Area AccumulatedCosts - Last 7 Days - Resource - Accumulated" provides you with a clear and convenient way to monitor the accumulated cost of your virtual machines in Azure, over the last 7 days.
 
 4. Pie Chart - Service Name
 
