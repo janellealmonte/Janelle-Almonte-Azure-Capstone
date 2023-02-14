@@ -221,7 +221,7 @@ This filter displays a pie chart that shows the proportion of costs associated w
 
 ![Chart4_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart4_last30days.png)
 
-This filter is the same as above except for the range which is last 30 days. I've included this screenshot as there are no data coming up for the last month's filter as we just recently started using Azure this month.
+This filter is the same as above except for the range which is last 30 days. I've included this screenshot as there are no data coming up for the last month's filter as we just recently started using Azure this month. In this example, we can see that Storage, Virtual Machines, Virtual Machines License, Bandwidth and Virtual Network are the services that consuming most resources.
 
 5. Pie Chart - Service Family
 
@@ -235,7 +235,7 @@ This filter displays a pie chart that shows the proportion of costs associated w
 
 ![Chart5_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart5_last30days.png)
 
-I've used the same filter as above but I've used Last 30 days to show the concise view of which service families are consuming the resources.
+I've used the same filter as above but I've used Last 30 days to show the concise view of which service families are consuming the resources. For the last 30 days the service families thatcosting me the most money are Compute, Storage and Networking.
 
 6. Pie Chart - Product
 
@@ -249,4 +249,4 @@ The filter shows the costs associated with each product I have in Azure, giving 
 
 ![Chart6_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5a60a8e152c9cdafe89d9315ce495fcf0bd8526b/Checkpoint5/cp5-ss/chart6_last30days.png)
 
-I've used the same filter but changed the date range to Last 30 days to visualize the result of the filter
+I've used the same filter but changed the date range to Last 30 days to visualize the result of the filter. In the screenshot above, the products that are consuming most of the resources in this example are Red Hat Enterprise Linux, Virtual Machine BS Series Windows, Standard HDD Managed Disks, Files - LRS - CA Central, & Others.
