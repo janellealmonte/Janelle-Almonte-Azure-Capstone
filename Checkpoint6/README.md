@@ -52,4 +52,76 @@ Please see iptables folder
 
 ### Part D - Basic Connectivity
 
+**[jmalmonte@LR-110 workfolder]$ sudo iptables -nvL**
+
+Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+13056 2268K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0
+    0     0 ACCEPT     all  --  lo     *       0.0.0.0/0            0.0.0.0/0
+    2   104 ACCEPT     tcp  --  *      *       10.66.53.0/24        0.0.0.0/0            state NEW tcp dpt:22
+   22  3280 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_INPUT"
+   22  3280 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+   60  5753 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:22
+   42  5437 ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:22
+ 2807  184K ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:3389
+ 3324  512K ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:3389
+    3  3780 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
+    3  3780 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+18255 3910K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+**[jmalmonte@LR-110 workfolder]$ sudo iptables -nvL**
+
+Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+13215 2304K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0
+    0     0 ACCEPT     all  --  lo     *       0.0.0.0/0            0.0.0.0/0
+    2   104 ACCEPT     tcp  --  *      *       10.66.53.0/24        0.0.0.0/0            state NEW tcp dpt:22
+   22  3280 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_INPUT"
+   22  3280 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+   87  9622 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:22
+   68  9878 ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:22
+ 3108  242K ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:3389
+ 3638  603K ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:3389
+    6  7560 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
+    6  7560 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+18467 3967K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+**[jmalmonte@LR-110 workfolder]$ sudo iptables -nvL**
+
+Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+14090 2512K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0
+    0     0 ACCEPT     all  --  lo     *       0.0.0.0/0            0.0.0.0/0
+    2   104 ACCEPT     tcp  --  *      *       10.66.53.0/24        0.0.0.0/0            state NEW tcp dpt:22
+   24  3424 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_INPUT"
+   24  3424 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+  115 13567 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:22
+   95 14419 ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:22
+ 3532  303K ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:3389
+ 4055  669K ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:3389
+    9 11340 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
+    9 11340 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
+Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
+ pkts bytes target     prot opt in     out     source               destination
+19656 4287K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+
 ### Part E - Azure Cost Analysis Charts
