@@ -54,6 +54,7 @@ Please see iptables folder
 
 **[jmalmonte@LR-110 workfolder]$ sudo iptables -nvL**
 
+```
 Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
  pkts bytes target     prot opt in     out     source               destination
 13056 2268K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
@@ -75,9 +76,11 @@ Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
 Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
  pkts bytes target     prot opt in     out     source               destination
 18255 3910K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+```
 
 **[jmalmonte@LR-110 workfolder]$ sudo iptables -nvL**
 
+```
 Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
  pkts bytes target     prot opt in     out     source               destination
 13215 2304K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
@@ -99,9 +102,11 @@ Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
 Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
  pkts bytes target     prot opt in     out     source               destination
 18467 3967K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+```
 
 **[jmalmonte@LR-110 workfolder]$ sudo iptables -nvL**
 
+```
 Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
  pkts bytes target     prot opt in     out     source               destination
 14090 2512K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
@@ -123,5 +128,6 @@ Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
 Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
  pkts bytes target     prot opt in     out     source               destination
 19656 4287K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+```
 
 ### Part E - Azure Cost Analysis Charts
