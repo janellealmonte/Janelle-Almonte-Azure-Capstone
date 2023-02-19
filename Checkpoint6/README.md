@@ -37,6 +37,10 @@ Base Image:  Red Hat Linux Enterprise 8.0
 
 ### Part B - Linux VMs Firewall Setting
 
+```
+Please see iptables folder
+```
+
 ### Part C - Enable ip-forwarding in NIC
 
 ### Part D - Basic Connectivity
