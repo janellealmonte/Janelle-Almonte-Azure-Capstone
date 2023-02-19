@@ -126,4 +126,23 @@ Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
 19656 4287K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
 ```
 
+```tbl
+Author                                         CreationDate                      Description                                         ManagedSnapshotId                                                                                                                      Name        ProvisioningState    ResourceGroup      UniqueIdentifier
+---------------------------------------------  --------------------------------  --------------------------------------------------  -------------------------------------------------------------------------------------------------------------------------------------  ----------  -------------------  -----------------  ------------------------------------
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-10T05:18:55.495996+00:00  Tasks Completed                                     /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/ws-img-v01  WS-img-v01  Succeeded            student-rg-846404  cbe3cb1b-3c39-4c51-8946-d859983465d5
+                                                                                 No connection, no setup
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-10T05:20:19.590494+00:00  Tasks Completed:                                    /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/ls-img-v01  LS-img-V01  Succeeded            student-rg-846404  d7e596b4-bf93-4c01-b84b-4497ccaa9eab
+                                                                                 No configuration
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-10T05:21:03.791154+00:00  Task Completed:                                     /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/lr-img-v01  LR-img-V01  Succeeded            student-rg-846404  7fc5a00d-993f-4d2b-a26c-acc8a22054c7
+                                                                                 added linuxkey and tested, working!
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-10T05:21:48.157315+00:00  Tasks Completed:                                    /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/wc-img-v01  WC-img-V01  Succeeded            student-rg-846404  4385643d-d44c-410e-90bf-daa5edac9d1e
+                                                                                 Added linuxkey, changed extension, tested
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-18T22:51:54.778610+00:00  Tasks Completed                                     /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/wc-img-v02  WC-img-v02  Succeeded            student-rg-846404  658e811d-ec82-4a80-971c-fdc2ac729ad8
+                                                                                 Installed Notepad++, Filezilla Client, Mysql shell
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-18T22:52:59.050185+00:00  Tasks Completed                                     /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/lr-img-v02  LR-img-v02  Succeeded            student-rg-846404  515cb0d7-f104-4454-b8ea-3ae6eeb1ffde
+                                                                                 basic config, iptables
+odl_user_846404@seneca-csn400ndd.cloudlabs.ai  2023-02-19T02:46:08.679219+00:00  Tasks Completed:                                    /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourcegroups/student-rg-846404/providers/microsoft.compute/snapshots/ls-img-v02  LS-img-v02  Succeeded            student-rg-846404  b36d5174-a543-4129-be79-0a9783d3ce13
+                                                                                 basic config, iptables
+```
+
 ### Part E - Azure Cost Analysis Charts
