@@ -43,8 +43,6 @@ Please see iptables folder
 
 ### Part C - Enable ip-forwarding in NIC
 
-**az network nic ip-config show --resource-group Student-RG-846404 --name lr-110 --nic-name lr-110 --query "{name:name,ipForwardingEnabled:primary}" --output json**
-
 ```json
 {
   "ipForwardingEnabled": true,
