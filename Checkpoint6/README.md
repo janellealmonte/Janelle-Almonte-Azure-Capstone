@@ -135,3 +135,64 @@ Chain OUTPUT (policy ACCEPT 20 packets, 2576 bytes)
 ![Delete_VM](https://github.com/144525201-myseneca/CSN400-Capstone/blob/bdcad82bb01b2c346a43a6b870156d1bff98b3eb/Checkpoint6/images/virtual_machines.png)
 
 ### Part E - Azure Cost Analysis Charts
+
+1. Column (Stacked) - DailyCosts - Last 7 Days - Resource - Daily
+
+![Chart1](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart1.png)
+
+This filter displays a stacked column chart that breaks down daily costs of virtual machines over the past 7 days, helping me monitor and optimize my usage and spending. It's a convenient way to get a clear visual representation of the costs for each individual virtual machine on a daily basis in Azure.
+
+2. Column (Stacked) - DailyCosts - Last 7 Days - Service - Daily
+
+![Chart2](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart2.png)
+
+This filter shows a stacked column chart of daily costs for different services in Azure over the past 7 days, providing a clear picture of my spending and how it has changed over time. It's a useful tool for monitoring and optimizing my usage of Azure services, and for making informed decisions about how to use them more efficiently. In short, the "Column (Stacked) - DailyCosts - Last 7 Days - Service - Daily" filter helps me analyze and manage my Azure service costs on a daily basis.
+
+3. Area	AccumulatedCosts - Last 7 Days - Resource - Accumulated
+
+![Chart3](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart3.png)
+
+This filter displays an area chart that shows the total cost of my virtual machines over the last 7 days. By analyzing this chart, I can track the trend of my virtual machine costs over time and identify opportunities to optimize my usage and save money. The "Area AccumulatedCosts - Last 7 Days - Resource - Accumulated" filter is a convenient tool for monitoring the accumulated cost of the virtual machines in Azure.
+
+4. Pie Chart - Service Name
+
+***last month***
+
+![Chart4_LastMonth](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart4_lastmonth.png)
+
+This filter offers a concise pie chart view of the cost distribution across various services in Azure over the last month. By analyzing this chart, I can quickly determine which services are consuming the most resources and contributing the most to my total costs. 
+
+***last 30 days***
+
+![Chart4_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart4_last30days.png)
+
+This filter is pretty similar to the last one, with the exception that it covers the last 30 days instead of just a month. I wanted to include this screenshot to show you that unfortunately, we won't see any data for the last month filter because we just started using Azure.
+
+However, what we do see in this screenshot is a pie chart that breaks down the proportion of costs associated with each service in Azure. From the chart, we can see that Storage, Virtual Machines, Virtual Machines License, Bandwidth, and Virtual Network are the services consuming the most resources. This information can be valuable for you to identify where you can make adjustments and optimize costs in Azure.
+
+5. Pie Chart - Service Family
+
+***last month***
+
+![Chart5_LastMonth](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart5_lastmonth.png)
+
+This filter shows a pie chart that breaks down the proportion of costs for each service family in Azure over the last month. It provides a clear view of which service families are consuming the most resources and driving up my Azure costs. While this filter returned no results due to a lack of activity in the last month, it can still be a valuable tool for optimizing costs by identifying high-cost service families.
+
+***last 30 days***
+
+![Chart5_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart5_last30days.png)
+
+This filter is similar to the previous one, but with a different time range of the last 30 days. It displays a pie chart that breaks down the proportion of costs associated with different service families in Azure. From the chart, we can see that the service families of Compute, Storage, and Networking are the ones that have been costing me the most money over the last 30 days.
+
+6. Pie Chart - Product
+
+***last month***
+
+![Chart6_LastMonth](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart6_lastmonth.png)
+This filter provides me with a breakdown of costs for each product I'm using in Azure, helping me identify which products are consuming the most resources and contributing the most to my total costs.
+
+***last 30 days***
+
+![Chart6_Last30Days](https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c2260f5be092bb602e6b7f0f15713d6e24c2b0b/Checkpoint6/images/chart6_last30days.png)
+
+I've applied the same filter as before, but with a date range of the last 30 days. The screenshot displays the products that have consumed the most resources during this period. In this example, the top five products are Red Hat Enterprise Linux, Virtual Machine BS Series Windows, Standard HDD Managed Disks, Files - LRS - CA Central, and a group of other products.
