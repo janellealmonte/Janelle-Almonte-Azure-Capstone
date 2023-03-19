@@ -122,7 +122,18 @@ Mar 19 02:38:47 LR-110 kernel: FTP CONTROL PLANE FORWARD WS-IN=eth0 OUT=eth0 MAC
 
 ### Part C - Analyzing Logged Packets
 
+The following table shows information about the packets that were filtered and logged in var/log/messages:
 
+| Packet ID | Date   | MAC Address                | Protocol | Source Address | Dest. Address   | Source Port | Dest. Port | Packet Length | LOG Prefix                   | Time To Live |
+|-----------|--------|----------------------------|----------|----------------|-----------------|-------------|------------|---------------|------------------------------|--------------|
+| 1         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 192.168.110.36  | 53371       | 22         | 52            | SSH INPUT LR-110             | 128          |
+| 2         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53380       | 3389       | 52            | RDP FORWARD WS-110           | 127          |
+| 3         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53403       | 53         | 52            | DNS TCP FORWARD WS-110       | 127          |
+| 4         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53390       | 80         | 40            | HTTP FORWARD WS-110          | 127          |
+| 5         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53419       | 53         | 52            | DNS TCP FORWARD LS-110       | 127          |
+| 6         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53429       | 80         | 52            | HTTP FORWARD LS-110          | 127          |
+| 7         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53437       | 3306       | 52            | MySQL FORWARD LS-110         | 127          |
+| 8         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53446       | 21         | 52            | FTP CONTROL PLANE FORWARD WS | 127          |
 
 ### Part D - Azure Cost Analysis Charts
 
