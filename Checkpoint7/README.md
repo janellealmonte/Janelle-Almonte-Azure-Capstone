@@ -70,72 +70,68 @@ Chain OUTPUT (policy ACCEPT 47 packets, 6708 bytes)
 
 ### Part B - Filtering Logged Packets
 
-The filtered logged packets in `var/log/messages` can be found [here](https://github.com/144525201-myseneca/CSN400-Capstone/blob/be1c6e43aa5a71a8bb26f98ceac4c4e80d5b0d7b/Checkpoint7/PART_B/logged_packets.log).
-
 **A NEW SSH session from Windows Client to Linux Router**
 
 ```bash
-Mar 19 02:30:20 LR-110 kernel: SSH INPUT LR-110 IN=eth0 OUT= MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=192.168.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=16960 DF PROTO=TCP SPT=53371 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0
+Mar 19 03:21:05 LR-110 kernel: SSH FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.37 LEN=76 TOS=0x00 PREC=0x00 TTL=127 ID=28922 DF PROTO=TCP SPT=52992 DPT=22 WINDOW=2049 RES=0x00 ACK PSH URGP=0
 ```
 
 **A NEW SSH session response from Linux Router to Windows Client**
 
 ```bash
-Mar 19 02:31:37 LR-110 kernel: RDP FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=21742 DF PROTO=TCP SPT=53380 DPT=3389 WINDOW=64240 RES=0x00 SYN URGP=0
+Mar 19 03:23:36 LR-110 kernel: RDP FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=224 TOS=0x00 PREC=0x00 TTL=127 ID=24155 DF PROTO=TCP SPT=53681 DPT=3389 WINDOW=2051 RES=0x00 ACK PSH URGP=0
 ```
 
 **A DNS request from Windows Client, requesting the FQDN of the IIS server**
 
 ```bash
-Mar 19 02:34:14 LR-110 kernel: DNS TCP FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=22219 DF PROTO=TCP SPT=53403 DPT=53 WINDOW=64240 RES=0x00 SYN URGP=0
+Mar 19 03:25:28 LR-110 kernel: DNS TCP FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=24524 DF PROTO=TCP SPT=53704 DPT=53 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
 
 **An HTTP request from Windows Client to the IIS Server**
 
 ```bash
-Mar 19 02:35:18 LR-110 kernel: HTTP FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=40 TOS=0x00 PREC=0x00 TTL=127 ID=22303 DF PROTO=TCP SPT=53390 DPT=80 WINDOW=2052 RES=0x00 ACK FIN URGP=0
+Mar 19 03:27:02 LR-110 kernel: HTTP FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=24634 DF PROTO=TCP SPT=53724 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0      
 ```
 
 **A DNS request from Windows Client, requesting the FQDN of the APACHE server**
 
 ```bash
-Mar 19 02:36:02 LR-110 kernel: DNS TCP FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=22340 DF PROTO=TCP SPT=53419 DPT=53 WINDOW=64240 RES=0x00 SYN URGP=0
+Mar 19 03:28:33 LR-110 kernel: DNS TCP FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=24711 DF PROTO=TCP SPT=53736 DPT=53 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
 
 **An HTTP request from Windows Client to the APACHE Server**
 
 ```bash
-Mar 19 02:37:01 LR-110 kernel: HTTP FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.37 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=28875 DF PROTO=TCP SPT=53429 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0
+Mar 19 03:29:31 LR-110 kernel: HTTP FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.37 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=28925 DF PROTO=TCP SPT=53746 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0  
 ```
 
 **A MySQL request from Windows Client to Linux Server**
 
 ```bash
-Mar 19 02:37:57 LR-110 kernel: MySQL FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.37 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=28885 DF PROTO=TCP SPT=53437 DPT=3306 WINDOW=64240 RES=0x00 SYN URGP=0
+Mar 19 03:30:30 LR-110 kernel: MySQL FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.37 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=28936 DF PROTO=TCP SPT=53755 DPT=3306 WINDOW=64240 RES=0x00 SYN URGP=0  
 ```
 
 **An FTP request from Windows Client to Windows Server**
 
 ```bash
-Mar 19 02:38:47 LR-110 kernel: FTP CONTROL PLANE FORWARD WS-IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=22505 DF PROTO=TCP SPT=53446 DPT=21 WINDOW=64240 RES=0x00 SYN URGP=0`
+Mar 19 03:32:39 LR-110 kernel: FTP CONTROL PLANE FORWARD WS-110 IN=eth0 OUT=eth0 MAC=00:22:48:ae:41:5f:c0:d6:82:33:be:00:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=24992 DF PROTO=TCP SPT=53808 DPT=21 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
+
 
 ### Part C - Analyzing Logged Packets
 
 The following table shows information about the packets that were filtered and logged in var/log/messages:
 
-| Packet ID | Date   | MAC Address                | Protocol | Source Address | Dest. Address   | Source Port | Dest. Port | Packet Length | LOG Prefix                        | Time To Live |
-|-----------|--------|----------------------------|----------|----------------|-----------------|-------------|------------|---------------|-----------------------------------|--------------|
-| 1         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 192.168.110.36  | 53371       | 22         | 52            | SSH INPUT LR-110                  | 128          |
-| 2         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53380       | 3389       | 52            | RDP FORWARD WS-110                | 127          |
-| 3         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53403       | 53         | 52            | DNS TCP FORWARD WS-110            | 127          |
-| 4         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53390       | 80         | 40            | HTTP FORWARD WS-110               | 127          |
-| 5         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53419       | 53         | 52            | DNS TCP FORWARD LS-110            | 127          |
-| 6         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53429       | 80         | 52            | HTTP FORWARD LS-110               | 127          |
-| 7         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53437       | 3306       | 52            | MySQL FORWARD LS-110              | 127          |
-| 8         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53446       | 21         | 52            | FTP CONTROL PLANE FORWARD WS-110  | 127          |
+| Packet ID | Date   | MAC Address                | Protocol | Source Address | Dest. Address    | Source Port | Dest. Port | Packet Length | LOG Prefix               | Time To Live |
+|-----------|--------|----------------------------|----------|----------------|------------------|-------------|------------|---------------|--------------------------|--------------|
+| 1         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 52992        | 22         | 76            | SSH FORWARD LS-110       | 127          |
+| 2         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53681        | 3389       | 224           | RDP FORWARD WS-110       | 127          |
+| 3         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53704        | 53         | 52            | DNS TCP FORWARD WS-110   | 127          |
+| 4         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53724        | 80         | 52            | HTTP FORWARD WS-110      | 127          |
+| 5         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53736        | 53         | 52            | DNS TCP FORWARD LS-110   | 127          |
+| 6         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53746        | 80         | 52            | HTTP FORWARD LS-110      | 127          |
+| 7         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53755        | 3306       | 52            | MySQL FORWARD LS-110     | 127          |
+| 8         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53808        | 21         | 52            | FTP CONTROL PLANE WS-110 | 127          |
 
 ### Part D - Azure Cost Analysis Charts
-
-
-
