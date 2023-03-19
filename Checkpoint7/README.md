@@ -14,7 +14,7 @@
 
 ### Part A - Logging Packets with Specific Prefixes
 
-I added logging rules to the firewall configuration to track specific types of network traffic. You can find the script used to configure the firewall logging rules and the output of the iptables -nvL in the following link:
+**To monitor certain types of network traffic, I incorporated logging rules into the firewall configuration. You may access the script utilized for configuring the firewall logging rules and the output of the 'iptables -nvL' command via the link provided below:**
 
 - [lr_firewall_log.sh](https://github.com/144525201-myseneca/CSN400-Capstone/blob/85080870c953fe2310e0565ace1a46e6990b6ddf/Checkpoint7/Part_A_files/lr_firewall.log.sh)
 - [lr_firewall_log.txt](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a89d53bd85239e9fa7a11c675eb95651daaee30f/Checkpoint7/Part_A_files/lr_firewall_log.txt)
