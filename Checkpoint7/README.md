@@ -124,8 +124,7 @@ Mar 19 03:32:39 LR-110 kernel: FTP CONTROL PLANE FORWARD WS-110 IN=eth0 OUT=eth0
 
 The following table shows information about the packets that were filtered and logged in var/log/messages:
 
-<div style="overflow-x:auto;">
-
+```css
 | Packet ID | Date   | MAC Address                | Protocol | Source Address | Dest. Address    | Source Port | Dest. Port | Packet Length | LOG Prefix               | Time To Live |
 |-----------|--------|----------------------------|----------|----------------|------------------|-------------|------------|---------------|--------------------------|--------------|
 | 1         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 52992        | 22         | 76            | SSH FORWARD LS-110       | 127          |
@@ -136,7 +135,6 @@ The following table shows information about the packets that were filtered and l
 | 6         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53746        | 80         | 52            | HTTP FORWARD LS-110      | 127          |
 | 7         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.37   | 53755        | 3306       | 52            | MySQL FORWARD LS-110     | 127          |
 | 8         | Mar 19 | 00:22:48:ae:41:5f:c0:d6:82 | TCP      | 10.66.53.4     | 172.17.110.36   | 53808        | 21         | 52            | FTP CONTROL PLANE WS-110 | 127          |
-
-</div>
+```
 
 ### Part D - Azure Cost Analysis Charts
