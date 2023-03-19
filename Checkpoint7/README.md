@@ -7,7 +7,7 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ## Table of Contents 📚
-1. [Part A - Logging Packets with Specific Prefixes](#part-a--logging-packets-with-specific-prefixes)
+1. [Part A - Logging Packets with Specific Prefixes](#part-a---logging-packets-with-specific-prefixes)
 2. [Part B - Filtering Logged Packets](#part-b---filtering-logged-packets)
 3. [Part C - Analyzing Logged Packets](#part-c---analyzing-logged-packets)
 4. [Part D - Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
