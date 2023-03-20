@@ -17,7 +17,7 @@
 **To monitor certain types of network traffic, I incorporated logging rules into the firewall configuration. You may access the script utilized for configuring the firewall logging rules and the output of the 'iptables -nvL' command via the link provided below:**
 
 - [lr_firewall_log.sh](https://github.com/144525201-myseneca/CSN400-Capstone/blob/cb30ead48f0cbcc5728ea31bc019dea7945e581f/Checkpoint7/PART_A/lr_firewall_log.sh)
-- [lr_firewall_log.txt](https://github.com/144525201-myseneca/CSN400-Capstone/blob/cb30ead48f0cbcc5728ea31bc019dea7945e581f/Checkpoint7/PART_A/lr_firewall_log.txt)
+- [lr_firewall_log.txt](https://github.com/144525201-myseneca/CSN400-Capstone/blob/8af1ed54282114ef8d41b0187054865cce9a0b16/Checkpoint7/PART_A/lr_firewall_log.txt)
 
 ```bash
 Chain INPUT (policy ACCEPT 1 packets, 40 bytes)
