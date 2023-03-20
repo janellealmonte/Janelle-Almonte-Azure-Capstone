@@ -11,6 +11,7 @@ iptables -X
 # Allow any INPUT tcp traffic if RELATED or ESTABLISHED
 echo "-------------------------------------------"
 echo "Allow any INPUT tcp traffic if RELATED or ESTABLISHED"
+iptables -A INPUT -p tcp  -m state --state RELATED,ESTABLISHED -j ACCEPT
 
 # Allow icmp traffic into the VM
 echo "-------------------------------------------"
@@ -93,7 +94,7 @@ iptables -A FORWARD -p tcp -d 10.66.53.0/24 -s 172.17.110.37 --sport 3306 -j ACC
 
 # add LOG rule in FORWARD chain if you are working from CLI
 echo "-------------------------------------------"
-iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.37 --dport 80 -m limit --limit 1/min -j LOG --log-prefix 	"HTTP FORWARD LS-110 "
+iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.37 --dport 80 -m limit --limit 1/min -j LOG --log-prefix      "HTTP FORWARD LS-110 "
 echo "-------------------------------------------"
 echo "Apache"
 echo "allow any tcp traffic pass through Source WC-110 subnet to Destination WS-110 for destination Apache protocol"
@@ -142,7 +143,7 @@ iptables -A FORWARD -p all -m limit --limit 10/s -j LOG  --log-prefix "TO_DROP_F
 iptables -A FORWARD -j DROP
 
 # add LOG rule in OUTPUT chain if you are updating iptables script in-line
-iptables -A OUTPUT -p tcp -s 192.168.110.36  --dport 22 -m limit --limit 1/min -j LOG --log-prefix "SSH OUTPUT WC-110 "
+iptables -A OUTPUT -p tcp -d 10.66.53.0/24 -s 192.168.110.36 --sport 22 -m limit --limit 1/min -j LOG --log-prefix "SSH OUTPUT WC-110 "
 
 # Allow all output traffic from this machine
 echo "-------------------------------------------"
@@ -158,4 +159,3 @@ echo "Allow all output traffic from this machine"
 echo "-------------------------------------------"
 echo "list current iptables status"
 iptables -nvL --line-number
-
