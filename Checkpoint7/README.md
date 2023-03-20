@@ -135,4 +135,23 @@ The following table shows information about the packets that were filtered and l
 | 30412     | Mar 20 01:12:09  | 00:22:48:3c:8a:e3:d4:af:f7:7f:02:28:08:00 | TCP      | 10.66.53.4     | 172.17.110.37    | 63686       | 3306       | 52            | MySQL FORWARD LS-110             | 127          |
 | 7813      | Mar 20 01:13:02  | 00:22:48:3c:8a:e3:d4:af:f7:7f:02:28:08:00 | TCP      | 10.66.53.4     | 172.17.110.36    | 63698       | 21         | 52            | FTP CONTROL PLANE FORWARD WS-110 | 127          |
 
+**What is Packet ID? Does it follow a sequence or is it random? How can you prove / demonstrate your answer?**
+
+`Packet ID is an identifier assigned to each packet by the logging system. It helps to track and identify packets as they pass through a network. In the given log, the Packet IDs appear to follow a sequence, and there are no missing numbers, suggesting that they are assigned sequentially as packets are received and logged. This can be demonstrated by comparing the Packet IDs with the timestamp of each packet and verifying that they are in chronological order.`
+
+
+**Why Windows Client Source Port is not related to the kind of service requested? Why for example SSH request is coming from a random Source Port instead of port 22? Is there any way you can fix request port number? If yes give example, if no elaborate?**
+
+Windows Client Source Port is randomly assigned for outgoing connections to avoid conflicts and make it harder for attackers to predict port numbers. This is done by using a large range of available ports (typically between 1024 and 65535) and selecting a random unused port number for each new outgoing connection. For SSH requests, the client uses a random Source Port instead of port 22 because port 22 is reserved for the SSH service on the server. It is not possible to fix the request port number as it is determined by the operating system and cannot be modified by the user.
+
+
+**Answer previous question for DNS service? Can you explain the random Source Port issue?**
+
+DNS requests use port 53 for UDP-based queries and a random source port for TCP-based queries. This is because DNS uses both UDP and TCP as transport protocols, and the behavior of the client depends on the type of query and response it sends or receives. Using a random source port for TCP-based DNS queries helps to avoid conflicts and make it harder for attackers to predict which ports are in use.
+
+
+**What is MAC address? Can you find the MAC addresses of your Network Interface Cards in Azure Portal? How?**
+
+A MAC address is a unique identifier assigned to each network interface controller (NIC) by the manufacturer. It is used to identify the NIC and enable communication between devices on the same network segment. In Azure Portal, you can find the MAC addresses of your Network Interface Cards (NICs) by navigating to the VM's Networking pane and selecting the relevant NIC. The MAC address is displayed in the MAC address field for each interface.
+
 ### Part D - Azure Cost Analysis Charts
