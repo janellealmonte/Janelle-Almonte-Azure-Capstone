@@ -135,6 +135,8 @@ The following table shows information about the packets that were filtered and l
 | 30412     | Mar 20 01:12:09  | 00:22:48:3c:8a:e3:d4:af:f7:7f:02:28:08:00 | TCP      | 10.66.53.4     | 172.17.110.37    | 63686       | 3306       | 52            | MySQL FORWARD LS-110             | 127          |
 | 7813      | Mar 20 01:13:02  | 00:22:48:3c:8a:e3:d4:af:f7:7f:02:28:08:00 | TCP      | 10.66.53.4     | 172.17.110.36    | 63698       | 21         | 52            | FTP CONTROL PLANE FORWARD WS-110 | 127          |
 
-![questions](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d4f5ae4bec65f56344d690ba1cb15de3762df295/Checkpoint7/PART_C/cp7.PNG)
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/7c6bdee66811940aa102d6aced3ed0b399c6cf1c/Checkpoint7/PART_C/cp7.PNG" alt="q&a">
+</p>
 
 ### Part D - Azure Cost Analysis Charts
