@@ -20,52 +20,52 @@
 - [lr_firewall_log.txt](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a89d53bd85239e9fa7a11c675eb95651daaee30f/Checkpoint7/Part_A_files/lr_firewall_log.txt)
 
 ```bash
-Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
+Chain INPUT (policy ACCEPT 18 packets, 720 bytes)
  pkts bytes target     prot opt in     out     source               destination
- 1274  271K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
-    0     0 ACCEPT     icmp --  *      *       10.66.53.0/24        192.168.110.36
+ 4137  794K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
+    3   180 ACCEPT     icmp --  *      *       10.66.53.0/24        192.168.110.36
     0     0 ACCEPT     all  --  lo     *       127.0.0.0/24         10.66.53.0/24
-    0     0 LOG        tcp  --  *      *       10.66.53.0/24        192.168.110.36       tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH INPUT LR-110 "
-    0     0 ACCEPT     tcp  --  *      *       10.66.53.0/24        192.168.110.36       state NEW tcp dpt:22
-    0     0 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_INPUT"
-    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+    1    52 LOG        tcp  --  *      *       10.66.53.0/24        192.168.110.36       tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH INPUT LR-110 "
+    1    52 ACCEPT     tcp  --  *      *       10.66.53.0/24        192.168.110.36       state NEW tcp dpt:22
+    2   144 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_INPUT"
+    2   144 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
 
-Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+Chain FORWARD (policy ACCEPT 2 packets, 130 bytes)
  pkts bytes target     prot opt in     out     source               destination
-    2   152 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:22 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "SSH FORWARD LS-110 "
-    2   152 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:22
-    4   280 ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:22
-    6   240 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:3389 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "RDP FORWARD WS-110 "
-  366  111K ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:3389
-  305 58253 ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:3389
-    5   275 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:53 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "DNS TCP FORWARD WS-110 "
-   72  3662 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:53
-   63  4104 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spt:53
-    7   487 LOG        udp  --  *      *       10.66.53.0/24        172.17.110.36        udp dpt:53 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "DNS UDP FORWARD WS-110 "
-   28  1845 ACCEPT     udp  --  *      *       10.66.53.0/24        172.17.110.36        udp dpt:53
-   24  3138 ACCEPT     udp  --  *      *       172.17.110.36        10.66.53.0/24        udp spt:53
-    5   463 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:3306 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "MySQL FORWARD LS-110 "
-   23  2209 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:3306
-   21 11375 ACCEPT     tcp  --  *      *       172.17.110.37        10.66.53.0/24        tcp spt:3306
+   10   688 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:22 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "SSH FORWARD LS-110 "
+   33  4325 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:22
+   37  5241 ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:22
+   23   920 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:3389 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "RDP FORWARD WS-110 "
+ 1107  143K ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.32/27     tcp dpt:3389
+ 1113  172K ACCEPT     tcp  --  *      *       172.17.110.32/27     10.66.53.0/24        tcp spt:3389
+    5   274 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:53 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "DNS TCP FORWARD WS-110 "
+   72  3656 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:53
+   64  4056 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spt:53
+   15   983 LOG        udp  --  *      *       10.66.53.0/24        172.17.110.36        udp dpt:53 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "DNS UDP FORWARD WS-110 "
+   63  4327 ACCEPT     udp  --  *      *       10.66.53.0/24        172.17.110.36        udp dpt:53
+   39  5698 ACCEPT     udp  --  *      *       172.17.110.36        10.66.53.0/24        udp spt:53
+    5   222 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:3306 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "MySQL FORWARD LS-110 "
+   26  2339 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:3306
+   22 11580 ACCEPT     tcp  --  *      *       172.17.110.37        10.66.53.0/24        tcp spt:3306
     5   610 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:80 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD LS-110 "
    10   810 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.37        tcp dpt:80
-    7   748 ACCEPT     tcp  --  *      *       172.17.110.37        10.66.53.0/24        tcp spt:80
+    6   708 ACCEPT     tcp  --  *      *       172.17.110.37        10.66.53.0/24        tcp spt:80
     5   610 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:80 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD WS-110 "
     9   770 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:80
-    5  1607 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spt:80
+    6  1647 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spt:80
     5   244 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:21 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "FTP CONTROL PLANE FORWARD WS-"
-   38  1821 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:21
-   41  2794 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spt:21
-    5   224 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpts:50000:51000 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-110"
-   13  1314 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpts:50000:51000
-   11  1169 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spts:50000:51000
+   20   962 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpt:21
+   23  1545 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spt:21
+    4   172 LOG        tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpts:50000:51000 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-110"
+    4   172 ACCEPT     tcp  --  *      *       10.66.53.0/24        172.17.110.36        tcp dpts:50000:51000
+    4   332 ACCEPT     tcp  --  *      *       172.17.110.36        10.66.53.0/24        tcp spts:50000:51000
     3  3780 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
     3  3780 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
 
-Chain OUTPUT (policy ACCEPT 47 packets, 6708 bytes)
+Chain OUTPUT (policy ACCEPT 427 packets, 61328 bytes)
  pkts bytes target     prot opt in     out     source               destination
-    0     0 LOG        tcp  --  *      *       192.168.110.36       0.0.0.0/0            tcp dpt:22 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "SSH OUTPUT WC-110 "
- 1604  444K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+   23  1988 LOG        tcp  --  *      *       192.168.110.36       10.66.53.0/24        tcp spt:22 limit: avg 1/min burst 5 LOG flags 0 level 4 prefix "SSH OUTPUT WC-110 "
+ 4856 1244K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
 ```
 
 ### Part B - Filtering Logged Packets
