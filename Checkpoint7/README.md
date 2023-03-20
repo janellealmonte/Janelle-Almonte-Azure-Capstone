@@ -70,7 +70,7 @@ Chain OUTPUT (policy ACCEPT 427 packets, 61328 bytes)
 
 ### Part B - Filtering Logged Packets
 
-The filtered logged packets found in var/log/messages can be found [here](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a498c1bde1d73bf4ecec891e0626bbef668f2db6/Checkpoint7/PART_B/logged_packets.log).
+The filtered logged packets found in var/log/messages can be found [here](https://github.com/144525201-myseneca/CSN400-Capstone/blob/01871d41c3eee14ff3f1343408fcf97da44e1982/Checkpoint7/PART_B/logged_packets.log).
 
 **A NEW SSH session from Windows Client to Linux Router**
 
