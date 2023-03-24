@@ -17,7 +17,7 @@
 **[Apache-IIS Filtered](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/apache-iis.filtered.PNG)**
 
 <div align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/apache-iis.filtered.PNG" alt="Apache-IIS Filtered" width="75%">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/apache-iis.filtered.PNG" alt="Apache-IIS Filtered" width="200%">
 </div>
 
 
@@ -26,7 +26,7 @@
 **[FTP-MySQL Filtered](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/ftp-mysql.filtered.PNG)**
 
 <div align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/ftp-mysql.filtered.PNG" alt="FTP-MySQL Filtered" width="75%">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/ftp-mysql.filtered.PNG" alt="FTP-MySQL Filtered" width="200%">
 </div>
 
 ### Part C – Adjusting Firewalls to DROP and LOG Traffic
