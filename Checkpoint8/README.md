@@ -23,10 +23,10 @@
 
 ### Part B – Logging and Analyzing FTP and MySQL Traffic
 
-**[FTP-MySQL Filtered](https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/ftp-mysql.filtered.PNG)**
+**[FTP-MySQL Filtered](https://github.com/144525201-myseneca/CSN400-Capstone/blob/c1b05c2a7e085413fc508015d79082cdd8f3afdb/Checkpoint8/images/ftp-mysql.filtered.PNG)**
 
 <div align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/3ace26ffa71e4868d9c4ab9e93bab4dc0a8547b9/Checkpoint8/images/ftp-mysql.filtered.PNG">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/c1b05c2a7e085413fc508015d79082cdd8f3afdb/Checkpoint8/images/ftp-mysql.filtered.PNG">
 </div>
 
 ### Part C – Adjusting Firewalls to DROP and LOG Traffic
