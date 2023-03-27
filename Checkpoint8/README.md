@@ -43,6 +43,27 @@ iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.32/27 --dport 22 -j DR
 iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.36 --dport 21 -j DROP
 ```
 
+**[lr-nondrop-log-filtered.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/173942d50ca46d0d7cf77f094210ca977f48347a/Checkpoint8/PART_C/lr-nondrop-log-filtered-pcap.PNG)**
+
+<div align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/173942d50ca46d0d7cf77f094210ca977f48347a/Checkpoint8/PART_C/lr-nondrop-log-filtered-pcap.PNG">
+</div>
+
+**lr-drop-log-filtered.log**
+
+```bash
+Mar 27 20:38:31 LR-110 kernel: FTP CONTROL PLANE FORWARD WS-IN=eth0 OUT=eth0 MAC=00:22:48:3c:5f:27:d4:af:f7:3d:9c:74:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=58120 DF PROTO=TCP SPT=51813 DPT=21 WINDOW=64240 RES=0x00 SYN URGP=0
+
+Mar 27 20:38:06 LR-110 kernel: SSH FORWARD LS-110 IN=eth0 OUT=eth0 MAC=00:22:48:3c:5f:27:d4:af:f7:3d:9c:74:08:00 SRC=10.66.53.4 DST=172.17.110.37 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=37884 DF PROTO=TCP SPT=51796 DPT=22 WINDOW=64240 RES=0x00 SYN URGP=0
+```
+
+**[lr-drop-log-filtered.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/173942d50ca46d0d7cf77f094210ca977f48347a/Checkpoint8/PART_C/lr-drop-log-filtered-pcap.PNG)**
+
+<div align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/173942d50ca46d0d7cf77f094210ca977f48347a/Checkpoint8/PART_C/lr-drop-log-filtered-pcap.PNG">
+</div>
+
+
 ### Part D - Azure Cost Analysis Charts
 
 [DAILY COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/dailycosts_resource.PNG)
