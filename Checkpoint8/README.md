@@ -45,8 +45,46 @@ iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.36 --dport 21 -j DROP
 
 ### Part D - Azure Cost Analysis Charts
 
+[DAILY COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/dailycosts_resource.PNG)
+
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/dailycosts_resource.PNG" alt="q&a">
+</p>
 
 
+[DAILY COSTS - SERVICE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/dailycosts_service.PNG)
+
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/dailycosts_service.PNG" alt="q&a">
+</p>
+
+
+[ACCUMULATED COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/accumatedcosts_resource.PNG)
+
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/accumatedcosts_resource.PNG" alt="q&a">
+</p>
+
+
+[PIE CHART - SERVICE NAME](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/piechart_servicename.PNG)
+
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/piechart_servicename.PNG" alt="q&a">
+</p>
+
+
+[PIE CHART - SERVICE FAMILY](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/piechart_servicefamily.PNG)
+
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/piechart_servicefamily.PNG" alt="q&a">
+</p>
+
+
+[PIE CHART - PRODUCT](https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/piechart_product.PNG)
+
+<p align="center">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/d377b8db9c4b1716658eb533024e3a97421d9c34/Checkpoint8/PART_D/piechart_product.PNG" alt="q&a">
+</p>
 
 
 
