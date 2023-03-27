@@ -31,7 +31,17 @@
 
 ### Part C – Adjusting Firewalls to DROP and LOG Traffic
 
+**Updated Script in lr-drop-log.sh**
 
+
+```bash
+iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.32/27 --dport 22 -j DROP
+```
+
+
+```bash
+iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.36 --dport 21 -j DROP
+```
 
 ### Part D - Azure Cost Analysis Charts
 
