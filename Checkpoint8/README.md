@@ -31,7 +31,7 @@
 
 ### Part C – Adjusting Firewalls to DROP and LOG Traffic
 
-**Updated Script in lr-drop-log.sh**
+**Updated Script in [lr-drop-log.sh](https://github.com/144525201-myseneca/CSN400-Capstone/blob/4f44ba7aa48e7d2b1d92a6a06e2467ce57becf2a/Checkpoint8/PART_C/lr-drop-log.sh)**
 
 
 ```bash
