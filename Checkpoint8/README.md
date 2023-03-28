@@ -65,7 +65,7 @@ Mar 28 03:32:39 LR-110 kernel: IPTables-Dropped: IN=eth0 OUT=eth0 MAC=00:22:48:a
 Mar 28 03:32:41 LR-110 kernel: IPTables-Dropped: IN=eth0 OUT=eth0 MAC=00:22:48:af:13:8e:fc:bd:67:ad:94:93:08:00 SRC=10.66.53.4 DST=172.17.110.36 LEN=52 TOS=0x00 PREC=0x00 TTL=127 ID=18279 DF PROTO=TCP SPT=64651 DPT=21 WINDOW=64240 RES=0x00 SYN URGP=0
 ```
 
-**[lr-drop-log-filtered.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/6d3453d2725b298ad6778e4d186af6874d147bc7/Checkpoint8/PART_C/lr-drop-log-filtered-pcap.PNG){:style="color:black"}**
+**[lr-drop-log-filtered.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/6d3453d2725b298ad6778e4d186af6874d147bc7/Checkpoint8/PART_C/lr-drop-log-filtered-pcap.PNG)**
 
 <div align="center">
   <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/6d3453d2725b298ad6778e4d186af6874d147bc7/Checkpoint8/PART_C/lr-drop-log-filtered-pcap.PNG">
