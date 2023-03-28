@@ -33,14 +33,16 @@
 
 **Updated Script in [lr-drop-log.sh](https://github.com/144525201-myseneca/CSN400-Capstone/blob/86d6fdab4ba1990e01ddbad1ddd0ba479f3c902d/Checkpoint8/PART_C/lr-drop-log.sh)**
 
+`SSH - PORT 22`
 
 ```bash
-iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.32/27 --dport 22 -j DROP
+ iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.37 --dport 22 -m limit --limit 1/min -j LOG --log-prefix "IPTables-Dropped: " --log-level 4
 ```
 
+`FTP - PORT 21`
 
 ```bash
-iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.36 --dport 21 -j DROP
+ iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.36 --dport 21 -m limit --limit 1/min -j LOG --log-prefix "IPTables-Dropped: " --log-level 4
 ```
 
 **[lr-nondrop-log-filtered.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/173942d50ca46d0d7cf77f094210ca977f48347a/Checkpoint8/PART_C/lr-nondrop-log-filtered-pcap.PNG)**
