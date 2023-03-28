@@ -44,8 +44,7 @@
 ```bash
  iptables -A FORWARD -p tcp -s 10.66.53.0/24 -d 172.17.110.36 --dport 21 -m limit --limit 1/min -j LOG --log-prefix "IPTables-Dropped: " --log-level 4
 ```
-
-**[lr-nondrop-log-filtered.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/6d3453d2725b298ad6778e4d186af6874d147bc7/Checkpoint8/PART_C/lr-nondrop-log-filtered-pcap.PNG){:style="color:black"}**
+<a href="https://github.com/144525201-myseneca/CSN400-Capstone/blob/173942d50ca46d0d7cf77f094210ca977f48347a/Checkpoint8/PART_C/lr-nondrop-log-filtered-pcap.PNG" style="color:black;">lr-nondrop-log-filtered.pcap</a>
 
 <div align="center">
   <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/6d3453d2725b298ad6778e4d186af6874d147bc7/Checkpoint8/PART_C/lr-nondrop-log-filtered-pcap.PNG">
