@@ -116,6 +116,8 @@ iptables -t nat -A POSTROUTING -o eth0 -m limit --limit 10/sec -j LOG --log-pref
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 
+I have uploaded a shell script called 'firewalls-cp9.sh' to my repository on GitHub. This script enables my partner's traffic to be routed and forwarded via HUBVNET. You can access the script at this [link](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a7e8371c5a74e91b52accb3c4ce1b074486fe5ec/Checkpoint9/links/firewalls-cp9.sh)
+
 ### Part C - Logging & Isolating Masqueraded Packets
 
 
