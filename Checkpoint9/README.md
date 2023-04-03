@@ -15,18 +15,22 @@
 
 ### Part A - Route Table Updates
 
-**PS /home/odl_user> az network route-table list --output table**                                                                                             
+**ROUTES**
 
-```bash                                               
+```bash
+PS /home/odl_user> az network route-table list --output table                                                                                            
+
 DisableBgpRoutePropagation    Location       Name       ProvisioningState    ResourceGroup      ResourceGuid
 ----------------------------  -------------  ---------  -------------------  -----------------  ------------------------------------
 False                         canadacentral  RT-110     Succeeded            Student-RG-846404  1ab4a3a4-46a4-4770-a2f9-98d57568962d
 False                         canadacentral  RT-EX-110  Succeeded            Student-RG-846404  650cab74-7a57-488b-972e-525f62b8a4ff
 ```
 
-**PS /home/odl_user> az network route-table route list --resource-group Student-RG-846404 --route-table-name RT-110 --output table**                          
+**ROUTE TABLES - RT-110**
 
-```bash                                                
+```bash
+PS /home/odl_user> az network route-table route list --resource-group Student-RG-846404 --route-table-name RT-110 --output table                          
+                                                
 AddressPrefix      HasBgpOverride    Name             NextHopIpAddress    NextHopType       ProvisioningState    ResourceGroup
 -----------------  ----------------  ---------------  ------------------  ----------------  -------------------  -----------------
 172.17.110.32/27   False             RouterServer     192.168.110.36      VirtualAppliance  Succeeded            Student-RG-846404
@@ -34,17 +38,21 @@ AddressPrefix      HasBgpOverride    Name             NextHopIpAddress    NextHo
 192.168.133.32/27  False             External-Router  192.168.110.36      VirtualAppliance  Succeeded            Student-RG-846404
 ```
 
-**PS /home/odl_user> az network route-table route list --resource-group Student-RG-846404 --route-table-name RT-EX-110 --output table**                       
+**ROUTE TABLES - RT-EX-110**
 
-```bash                                              
+```bash
+PS /home/odl_user> az network route-table route list --resource-group Student-RG-846404 --route-table-name RT-EX-110 --output table                       
+                                              
 AddressPrefix      HasBgpOverride    Name          NextHopIpAddress    NextHopType       ProvisioningState    ResourceGroup
 -----------------  ----------------  ------------  ------------------  ----------------  -------------------  -----------------
 192.168.133.32/27  False             Route-to-Hub  192.168.99.36       VirtualAppliance  Succeeded            Student-RG-846404
 ```
 
-**PS /home/odl_user> az network vnet subnet list --resource-group Student-RG-846404 --vnet-name Router-110 --query "[].{Name:name, RouteTable:routeTable.id}" --output table**
+**ASSOCIATED SUBNETS - ROUTER 110**
 
-```bash 
+```bash
+PS /home/odl_user> az network vnet subnet list --resource-group Student-RG-846404 --vnet-name Router-110 --query "[].{Name:name, RouteTable:routeTable.id}" --output table
+
 Name    RouteTable
 ------  --------------------------------------------------------------------------------------------------------------------------------------
 SN2
@@ -53,9 +61,11 @@ SN4
 SN1     /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/routeTables/RT-EX-110
 ```
 
-**PS /home/odl_user> az network vnet subnet list --resource-group Student-RG-846404 --vnet-name Server-110 --query "[].{Name:name, RouteTable:routeTable.id}" --output table**
+**ASSOCIATED SUBNETS - SERVER 110**
 
-```bash 
+```bash
+PS /home/odl_user> az network vnet subnet list --resource-group Student-RG-846404 --vnet-name Server-110 --query "[].{Name:name, RouteTable:routeTable.id}" --output table
+
 Name    RouteTable
 ------  -----------------------------------------------------------------------------------------------------------------------------------
 SN2
@@ -64,9 +74,11 @@ SN4
 SN1     /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/routeTables/RT-110
 ```
  
-**PS /home/odl_user> az network vnet subnet list --resource-group Student-RG-846404 --vnet-name Student-846404-vnet --query "[].{Name:name, RouteTable:routeTable.id}" --output table**    
+**ASSOIATED SUBNETS - STUDENT-846404-VNET**
 
-```bash              
+```bash
+PS /home/odl_user> az network vnet subnet list --resource-group Student-RG-846404 --vnet-name Student-846404-vnet --query "[].{Name:name, RouteTable:routeTable.id}" --output table
+              
 Name                    RouteTable
 ----------------------  -----------------------------------------------------------------------------------------------------------------------------------
 Virtual-Desktop-Client  /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/resourceGroups/Student-RG-846404/providers/Microsoft.Network/routeTables/RT-110
