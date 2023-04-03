@@ -15,7 +15,14 @@
 
 ### Part A - Route Table Updates
 
+**az network route-table list --output table**
 
+```bash
+DisableBgpRoutePropagation    Location       Name       ProvisioningState    ResourceGroup      ResourceGuid
+----------------------------  -------------  ---------  -------------------  -----------------  ------------------------------------
+False                         canadacentral  RT-110     Succeeded            Student-RG-846404  1ab4a3a4-46a4-4770-a2f9-98d57568962d
+False                         canadacentral  RT-EX-110  Succeeded            Student-RG-846404  650cab74-7a57-488b-972e-525f62b8a4ff
+```
 
 ### Part B - Port Forwarding Basic Connectivity
 
