@@ -86,8 +86,7 @@ Virtual-Desktop-Client  /subscriptions/71d310bf-1718-4d11-87d1-99a7d4e2053f/reso
 
 ### Part B - Port Forwarding Basic Connectivity
 
-
-**nat_basic-connectivity.sh**
+**[nat_basic-connectivity.sh](https://github.com/144525201-myseneca/CSN400-Capstone/blob/75cfdc156c0b60ca589b5d0fef68bb80b60e82e7/Checkpoint9/links/nat_basic-connectivity.sh)**
 
 ```bash
 ### FLUSH IPTABLES ###
