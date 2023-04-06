@@ -178,6 +178,22 @@ iptables -A FORWARD -p tcp -d 192.168.133.36 --sport 3306 -j ACCEPT
 
 ### Part C - Logging & Isolating Masqueraded Packets
 
+**[masqueraded-logged.log](https://github.com/144525201-myseneca/CSN400-Capstone/blob/6f7544c642ab950545448fe482c3ccc6b4444edb/Checkpoint9/links/masqueraded-logged.log)
+
+```bash
+Apr  6 05:38:51 LR-110 kernel: log-captures masquerading HTTIN=eth0 OUT=eth0 MAC=00:22:48:3d:53:6c:c0:d6:82:3c:76:18:08:00 SRC=192.168.133.36 DST=172.17.110.36 LEN=41 TOS=0x00 PREC=0x00 TTL=125 ID=12466 DF PROTO=TCP SPT=50671 DPT=80 WINDOW=2051 RES=0x00 ACK URGP=0
+
+Apr  6 05:38:08 LR-110 kernel: log-captures masquerading HTTIN=eth0 OUT=eth0 MAC=00:22:48:3d:53:6c:c0:d6:82:3c:76:18:08:00 SRC=192.168.133.36 DST=172.17.110.37 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=12200 DF PROTO=TCP SPT=50667 DPT=80 WINDOW=2051 RES=0x00 ACK URGP=0
+
+Apr  6 05:38:27 LR-110 kernel: log-captures masquerading SSHIN=eth0 OUT=eth0 MAC=00:22:48:3d:53:6c:c0:d6:82:3c:76:18:08:00 SRC=192.168.133.36 DST=172.17.110.37 LEN=108 TOS=0x00 PREC=0x00 TTL=125 ID=12444 DF PROTO=TCP SPT=50714 DPT=22 WINDOW=2051 RES=0x00 ACK PSH URGP=0
+
+Apr  6 05:40:29 LR-110 kernel: log-captures masquerading RDPIN=eth0 OUT=eth0 MAC=00:22:48:3d:53:6c:c0:d6:82:3c:76:18:08:00 SRC=192.168.133.36 DST=172.17.110.36 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=12556 DF PROTO=TCP SPT=50706 DPT=3389 WINDOW=2051 RES=0x00 ACK URGP=0
+
+Apr  6 05:37:57 LR-110 kernel: log-captures masquerading MYSIN=eth0 OUT=eth0 MAC=00:22:48:3d:53:6c:c0:d6:82:3c:76:18:08:00 SRC=192.168.133.36 DST=172.17.110.37 LEN=109 TOS=0x00 PREC=0x00 TTL=125 ID=12175 DF PROTO=TCP SPT=50697 DPT=3306 WINDOW=2048 RES=0x00 ACK PSH URGP=0
+```
+
+**[masqueraded-capture.pcap](link to be added)**
+
 
 
 ### Part D - Azure Cost Analysis Charts
