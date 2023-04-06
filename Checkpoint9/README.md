@@ -7,9 +7,9 @@
 - **TEACHER’S NAME: Atoosa Nasiri**
 
 ## Table of Contents 📚
-1. [Part A - Route Table Updates](#part-a--route-table-updates)
-2. [Part B - Port Forwarding Basic Connectivity](#part-b--port-forwarding-basic-connectivity)
-3. [Part C - Logging & Isolating Masqueraded Packets](#part-c--logging--isolating-masqueraded-packets)
+1. [Part A - Route Table Updates](#part-a---route-table-updates)
+2. [Part B - Port Forwarding Basic Connectivity](#part-b---port-forwarding-basic-connectivity)
+3. [Part C - Logging & Isolating Masqueraded Packets](#part-c---logging--isolating-masqueraded-packets)
 4. [Part D - Azure Cost Analysis Charts](#part-d---azure-cost-analysis-charts)
 
 
