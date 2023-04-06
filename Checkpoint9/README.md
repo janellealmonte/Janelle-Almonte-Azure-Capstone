@@ -194,7 +194,7 @@ Apr  6 05:37:57 LR-110 kernel: log-captures masquerading MYSIN=eth0 OUT=eth0 MAC
 
 **[masqueraded-capture.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5258e1b16ce1194761411afd1ca9f55d10918c78/Checkpoint9/links/masquerade-capture-pcap.PNG)**
 
-![masqueraded-capture.pcap](https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/5258e1b16ce1194761411afd1ca9f55d10918c78/Checkpoint9/links/masquerade-capture-pcap.PNG)
+![masqueraded-capture.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/39b9a157e92bafb7807ae56b3f4798919edd62e8/Checkpoint9/links/masquerade-capture-pcap.PNG)
 
 
 ### Part D - Azure Cost Analysis Charts
