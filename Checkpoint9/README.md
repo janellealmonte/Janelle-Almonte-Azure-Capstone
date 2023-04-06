@@ -192,8 +192,9 @@ Apr  6 05:40:29 LR-110 kernel: log-captures masquerading RDPIN=eth0 OUT=eth0 MAC
 Apr  6 05:37:57 LR-110 kernel: log-captures masquerading MYSIN=eth0 OUT=eth0 MAC=00:22:48:3d:53:6c:c0:d6:82:3c:76:18:08:00 SRC=192.168.133.36 DST=172.17.110.37 LEN=109 TOS=0x00 PREC=0x00 TTL=125 ID=12175 DF PROTO=TCP SPT=50697 DPT=3306 WINDOW=2048 RES=0x00 ACK PSH URGP=0
 ```
 
-**[masqueraded-capture.pcap](link to be added)**
+**[masqueraded-capture.pcap](https://github.com/144525201-myseneca/CSN400-Capstone/blob/5258e1b16ce1194761411afd1ca9f55d10918c78/Checkpoint9/links/masquerade-capture-pcap.PNG)**
 
+![masqueraded-capture.pcap](https://raw.githubusercontent.com/144525201-myseneca/CSN400-Capstone/5258e1b16ce1194761411afd1ca9f55d10918c78/Checkpoint9/links/masquerade-capture-pcap.PNG)
 
 
 ### Part D - Azure Cost Analysis Charts
