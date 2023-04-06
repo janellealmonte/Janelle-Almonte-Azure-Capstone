@@ -198,46 +198,47 @@ Apr  6 05:37:57 LR-110 kernel: log-captures masquerading MYSIN=eth0 OUT=eth0 MAC
 
 ### Part D - Azure Cost Analysis Charts
 
-[DAILY COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/dailycosts_resource.PNG)
+[DAILY COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/dailycosts_resource.PNG)
 
 <p align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/dailycosts_resource.PNG" alt="q&a">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/dailycosts_resource.PNG" alt="q&a">
 </p>
 
 
-[DAILY COSTS - SERVICE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/dailycosts_service.PNG)
+[DAILY COSTS - SERVICE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/dailycosts_service.PNG)
 
 <p align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/dailycosts_service.PNG" alt="q&a">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/dailycosts_service.PNG" alt="q&a">
 </p>
 
 
-[ACCUMULATED COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/accumatedcosts_resource.PNG)
+[ACCUMULATED COSTS - RESOURCE](https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/accumatedcosts_resource.PNG)
 
 <p align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/accumatedcosts_resource.PNG" alt="q&a">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/accumatedcosts_resource.PNG" alt="q&a">
 </p>
 
 
-[PIE CHART - SERVICE NAME](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/piechart_servicename.PNG)
+[PIE CHART - SERVICE NAME](https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/piechart_servicename.PNG)
 
 <p align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/piechart_servicename.PNG" alt="q&a">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/piechart_servicename.PNG" alt="q&a">
 </p>
 
 
-[PIE CHART - SERVICE FAMILY](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/piechart_servicefamily.PNG)
+[PIE CHART - SERVICE FAMILY](https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/piechart_servicefamily.PNG)
 
 <p align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/piechart_servicefamily.PNG" alt="q&a">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/piechart_servicefamily.PNG" alt="q&a">
 </p>
 
 
-[PIE CHART - PRODUCT](https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/piechart_product.PNG)
+[PIE CHART - PRODUCT](https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/piechart_product.PNG)
 
 <p align="center">
-  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/a54ac29bfbf065ca02327cf8ebeccb239aa16ee0/Checkpoint9/Part_D/piechart_product.PNG" alt="q&a">
+  <img src="https://github.com/144525201-myseneca/CSN400-Capstone/blob/12b0f76121b7986c2e8389cb184c15d846962000/Checkpoint9/Part_D/piechart_product.PNG" alt="q&a">
 </p>
+
 
 
 
